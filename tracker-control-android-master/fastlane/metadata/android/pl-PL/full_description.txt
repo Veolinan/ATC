@@ -1,6 +1,6 @@
-TrackerControl umożliwia użytkownikom nadzór i kontrolę nad powszechnym, uporczywym i ukrytym gromadzeniem danych o aktywności użytkownika w aplikacjach mobilnych (tkzw tracking 'śledzeniem').
+Salama Online umożliwia użytkownikom nadzór i kontrolę nad powszechnym, uporczywym i ukrytym gromadzeniem danych o aktywności użytkownika w aplikacjach mobilnych (tkzw tracking 'śledzeniem').
 
-"Disconnect blocklist", używanej przez Firefoksa oraz używana jest nasza wewnętrzna lista bloków, stworzona z analizy ~ 2 000 000 aplikacji! Ponadto TrackerControl obsługuje niestandardowe listy bloków.
+"Disconnect blocklist", używanej przez Firefoksa oraz używana jest nasza wewnętrzna lista bloków, stworzona z analizy ~ 2 000 000 aplikacji! Ponadto Salama Online obsługuje niestandardowe listy bloków.
 
 Takie podejście
 
@@ -10,9 +10,9 @@ ujawnia cele śledzenia, takie jak analityka lub reklama.
 
 Aplikacja ma również na celu edukację na temat Twoich praw wynikających z prawa o ochronie danych, takich jak ogólne rozporządzenie o ochronie danych UE (RODO).
 
-Pod maską TrackerControl wykorzystuje funkcjonalność VPN Androida do analizy komunikacji sieciowej aplikacji lokalnie na urządzeniu z Androidem. Odbywa się to za pośrednictwem lokalnego serwera VPN, aby umożliwić analizę ruchu sieciowego przez TrackerControl.
+Pod maską Salama Online wykorzystuje funkcjonalność VPN Androida do analizy komunikacji sieciowej aplikacji lokalnie na urządzeniu z Androidem. Odbywa się to za pośrednictwem lokalnego serwera VPN, aby umożliwić analizę ruchu sieciowego przez Salama Online.
 
-Nie jest wymagany root, inne VPN lub prywatny DNS nie są obsługiwane. Żaden zewnętrzny serwer VPN nie jest używany, aby zapewnić bezpieczeństwo Twoich danych! TrackerControl chroni nawet przed maskowaniem DNS, popularną techniką ukrywania trackerów w witrynach i aplikacjach.
+Nie jest wymagany root, inne VPN lub prywatny DNS nie są obsługiwane. Żaden zewnętrzny serwer VPN nie jest używany, aby zapewnić bezpieczeństwo Twoich danych! Salama Online chroni nawet przed maskowaniem DNS, popularną techniką ukrywania trackerów w witrynach i aplikacjach.
 
-TrackerControl będzie zawsze darmowym i otwartym oprogramowaniem, będącym projektem badawczym.
+Salama Online będzie zawsze darmowym i otwartym oprogramowaniem, będącym projektem badawczym.
 

@@ -1,6 +1,6 @@
-TrackerControl lar brukere overvåke og kontrollere den utbredte, pågående og skjulte innsamlingen av bruksdata i mobilapplikasjoner ("sporing").
+Salama Online lar brukere overvåke og kontrollere den utbredte, pågående og skjulte innsamlingen av bruksdata i mobilapplikasjoner ("sporing").
 
-For å oppdage sporing, så kombinerer TrackerControl effekten av Disconnect sine blokkeringslister, som brukes av Firefox, og vår egen blokkeringsliste, skapt basert på analyser av <i>~2 000 000</i> apper! I tillegg støtter TrackerControl egendefinerte blokkeringslister.
+For å oppdage sporing, så kombinerer Salama Online effekten av Disconnect sine blokkeringslister, som brukes av Firefox, og vår egen blokkeringsliste, skapt basert på analyser av <i>~2 000 000</i> apper! I tillegg støtter Salama Online egendefinerte blokkeringslister.
 
 Denne tilnærmingen
 
@@ -10,9 +10,9 @@ Denne tilnærmingen
 
 Appen ønsker også å gi opplæring i dine rettigheter under personvernlover, slik som EUs personvernforordning (GDPR).
 
-Under panseret bruker TrackerControl Androids VPN-funksjonalitet, for å analysere appenes nettverkskommunikasjon <i>lokalt på Android-enheten</i>. Dette oppnås gjennom en lokal VPN-server, for å muliggjøre nettverkstrafikk analyse av TrackerControl.
+Under panseret bruker Salama Online Androids VPN-funksjonalitet, for å analysere appenes nettverkskommunikasjon <i>lokalt på Android-enheten</i>. Dette oppnås gjennom en lokal VPN-server, for å muliggjøre nettverkstrafikk analyse av Salama Online.
 
-Ingen root er nødvendig. Annen VPNer eller Private DNS støttes ikke. For å holde dataene dine trygg er ingen ekstern VPN server brukt! TrackerControl beskytter deg til og med mot <i>DNS cloaking</i>, en populær metode for å skjule sporere på nettsteder og apper.
+Ingen root er nødvendig. Annen VPNer eller Private DNS støttes ikke. For å holde dataene dine trygg er ingen ekstern VPN server brukt! Salama Online beskytter deg til og med mot <i>DNS cloaking</i>, en populær metode for å skjule sporere på nettsteder og apper.
 
-Som et forskningsprosjekt vil TrackerControl alltid være fri og åpen kildekode.
+Som et forskningsprosjekt vil Salama Online alltid være fri og åpen kildekode.
 

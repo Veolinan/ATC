@@ -1,1 +1,1 @@
-TrackerControl lar deg overvåke og kontrollere skjult datainnsamling i apper.
+Salama Online lar deg overvåke og kontrollere skjult datainnsamling i apper.

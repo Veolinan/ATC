@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_description">A TrackerControl lehetővé teszi a felhasználók számára, hogy figyelemmel kísérjék és ellenőrizzék a mobilalkalmazásokban a felhasználói viselkedéssel kapcsolatos széles körű, folyamatos, rejtett adatgyűjtést (nyomkövetés).</string>
-    <string name="app_copyright">Szerzői Jog \u00A9 2019–2022 Konrad Kollnig (Human-Centred Computing, Department of Computer Science, University of Oxford)\n\nA TrackerControl a NetGuardon alapul, amelyet a Marcel Bokhorst fejlesztett.(M66B).</string>
-    <string name="app_android">A TrackerControl Android 5.1-et, vagy újabbat igényel</string>
-    <string name="app_xposed">Az Xposed túl sok összeomlást okoz, ami a TrackerControl eltávolítását eredményezheti a Google Play Áruházból, ezért a TrackerControl nem támogatott amíg az Xposed telepítve van</string>
+    <string name="app_description">A Salama Online lehetővé teszi a felhasználók számára, hogy figyelemmel kísérjék és ellenőrizzék a mobilalkalmazásokban a felhasználói viselkedéssel kapcsolatos széles körű, folyamatos, rejtett adatgyűjtést (nyomkövetés).</string>
+    <string name="app_copyright">Szerzői Jog \u00A9 2019–2022 Konrad Kollnig (Human-Centred Computing, Department of Computer Science, University of Oxford)\n\nA Salama Online a NetGuardon alapul, amelyet a Marcel Bokhorst fejlesztett.(M66B).</string>
+    <string name="app_android">A Salama Online Android 5.1-et, vagy újabbat igényel</string>
+    <string name="app_xposed">Az Xposed túl sok összeomlást okoz, ami a Salama Online eltávolítását eredményezheti a Google Play Áruházból, ezért a Salama Online nem támogatott amíg az Xposed telepítve van</string>
     <string name="app_eula">Az alkalmazás használata a saját felelősségére történik. Egyetlen alkalmazás sem kínál 100%-os védelmet a követés ellen.</string>
-    <string name="app_privacy"><a href="https://github.com/TrackerControl/tracker-control-android#privacy-notice">Titoktartási Irányelv</a> <a href="https://github.com/TrackerControl/tracker-control-android#cookie-policy">Süti Irányelv</a></string>
+    <string name="app_privacy"><a href="https://github.com/Salama Online/tracker-control-android#privacy-notice">Titoktartási Irányelv</a> <a href="https://github.com/Salama Online/tracker-control-android#cookie-policy">Süti Irányelv</a></string>
     <string name="channel_foreground">Futó szolgáltatások</string>
     <string name="channel_notify">Általános értesítések</string>
     <string name="channel_access">Hozzáférési értesítések</string>
@@ -93,13 +93,13 @@
     <string name="setting_hosts_download">Hosts-fájl letöltése</string>
     <string name="setting_hosts_update">Hosts-fájl frissítése</string>
     <string name="summary_install">Állapotsor értesítés megjelenítése az újonnan telepített alkalmazásokhoz</string>
-    <string name="summary_pause">Az értesítés szüneteltetése után a kiválasztott percek után automatikusan engedélyezze újra a TrackerControl alkalmazást (0 érték letiltja az opciót).</string>
+    <string name="summary_pause">Az értesítés szüneteltetése után a kiválasztott percek után automatikusan engedélyezze újra a Salama Online alkalmazást (0 érték letiltja az opciót).</string>
     <string name="summary_update">Ellenőrizze naponta kétszer a GitHub-on az új kiadásokat</string>
     <string name="summary_tethering">Az Android verziótól függően az internetmegosztás vagy működik, vagy nem. A megosztott forgalom nem szűrhető.</string>
     <string name="summary_subnet">Engedélyezi az alhálózati útválasztót; lehet, hogy engedélyezi a Wi-Fi hívást, de lehet, hogy hibát okoz az Androidban és növeli az akkumulátor használatot</string>
     <string name="summary_lan">Engedélyezi az alkalmazások kapcsolódását a LAN hálózati címekhez, mint pl. 10.0.0.0/8, 172.16.0.0/12 és 192.168.0.0/16</string>
-    <string name="summary_ip6">Az IPv6 forgalmat a TrackerControl szelektíven tudja tiltani vagy engedélyezni</string>
-    <string name="summary_call">A TrackerControl letiltása a bejövő vagy kimenő telefonhívás alatt. Ez használható IP/Wi-Fi hívási problémák megoldására.</string>
+    <string name="summary_ip6">Az IPv6 forgalmat a Salama Online szelektíven tudja tiltani vagy engedélyezni</string>
+    <string name="summary_call">A Salama Online letiltása a bejövő vagy kimenő telefonhívás alatt. Ez használható IP/Wi-Fi hívási problémák megoldására.</string>
     <string name="summary_system">Szabályok megadása a rendszer alkalmazásokra (szakértőknek)</string>
     <string name="summary_log_app">Az akkumulátor használatának csökkentése érdekében tiltsa le. Az új nyomkövetők továbbra is blokkolásra kerülnek, de nem jelennek meg.</string>
     <string name="summary_track_usage">Nyomon követheti a küldött és fogadott bájtok számát minden egyes alkalmazáshoz és címhez. Ez extra akkumulátor használattal járhat.</string>
@@ -107,28 +107,28 @@
     <string name="summary_rcode">Az alapértelmezett érték 3 (NXDOMAIN), ami azt jelenti: „nem létező tartomány”.</string>
     <string name="summary_validate">Az internetkapcsolat ellenőrzéséhez a 443 (https) porton használt tartománynév.</string>
     <string name="summary_socks5_enabled">Csak a TCP forgalom küldése a proxy-szerverre</string>
-    <string name="summary_watchdog">Rendszeresen ellenőriz ha a TrackerControl fut (a 0 beírása letiltja az opciót). Ez extra akkumulátor használattal járhat.</string>
+    <string name="summary_watchdog">Rendszeresen ellenőriz ha a Salama Online fut (a 0 beírása letiltja az opciót). Ez extra akkumulátor használattal járhat.</string>
     <string name="summary_log_logcat">Letiltja a blokkolást. A kommunikációt (és az azonosított nyomkövetőket) naplózza az eszköznaplóba. Letöltés az adb logcat segítségével a „TC-Log” címkével.</string>
     <string name="msg_sure">Biztos vagy benne?</string>
     <string name="msg_started">Nyomkövetők ellenőrzése</string>
     <string name="msg_waiting">Várakozás eseményre</string>
-    <string name="msg_disabled">Használja a fenti kapcsolót a TrackerControl engedélyezéséhez.</string>
-    <string name="msg_revoked">A TrackerControl le van tiltva, valószínűleg egy másik VPN alapú alkalmazással</string>
+    <string name="msg_disabled">Használja a fenti kapcsolót a Salama Online engedélyezéséhez.</string>
+    <string name="msg_revoked">A Salama Online le van tiltva, valószínűleg egy másik VPN alapú alkalmazással</string>
     <string name="msg_installed">%1$s gondok vannak?</string>
     <string name="msg_installed_description">Engedélyezi az app kapcsolatát a társaságokkal</string>
     <string name="msg_installed_tracker_libraries_found">%d nyomkövető könyvtárat tartalmaz</string>
     <string name="msg_installed_n">Telepítésre került</string>
     <string name="msg_completed">Művelet befejezve</string>
-    <string name="msg_vpn">A TrackerControl helyi VPN-t használ az internetes forgalom szűréséhez.
+    <string name="msg_vpn">A Salama Online helyi VPN-t használ az internetes forgalom szűréséhez.
 Kérjük engedélyezze a VPN kapcsolatot a következő párbeszéd ablakban.
 Az Ön internetes forgalmát nem küldi el egy távoli VPN-kiszolgálóra.</string>
-    <string name="msg_autostart">A TrackerControl nem tudott automatikusan elindulni. Ez valószínűleg az Androidjának hibája miatt következett be.</string>
+    <string name="msg_autostart">A Salama Online nem tudott automatikusan elindulni. Ez valószínűleg az Androidjának hibája miatt következett be.</string>
     <string name="msg_error">Váratlan hiba történt: \'%s\'</string>
     <string name="msg_start_failed">Az Android nem volt hajlandó elindítani a VPN szolgáltatást. Ez valószínűleg az Androidjának hibája miatt következett be.</string>
-    <string name="msg_try">Próbálja ki a TrackerControlt</string>
-    <string name="msg_doze">A következetes eredményekhez az Androidos akkumulátor-optimalizálásban a TrackerControlt kivétellé kell tenni.\n\nA következő párbeszédablakban válassza felül az „Összes alkalmazás”-t, érintse meg a TrackerControl feliratot és válassza a „Ne optimalizálja” lehetőséget.</string>
-    <string name="msg_datasaving">A következetes eredmény érdekében az Android adatforgalom-csökkentő bekapcsolásakor is biztosítani kell az adathasználatot a TrackerControl számára\n\nA következő párbeszédablakban engedélyezni kell a „Háttér adat” és a „Korlátlan adathasználat” lehetőséget</string>
-    <string name="msg_filter">A szűrés használatával az adat és az energia használat attributumait a TrackerControlhoz sorolja. Az Android azt feltételezi, hogy ezeket a TrackerControl használta fel és nem az eredeti alkalmazás</string>
+    <string name="msg_try">Próbálja ki a Salama Onlinet</string>
+    <string name="msg_doze">A következetes eredményekhez az Androidos akkumulátor-optimalizálásban a Salama Onlinet kivétellé kell tenni.\n\nA következő párbeszédablakban válassza felül az „Összes alkalmazás”-t, érintse meg a Salama Online feliratot és válassza a „Ne optimalizálja” lehetőséget.</string>
+    <string name="msg_datasaving">A következetes eredmény érdekében az Android adatforgalom-csökkentő bekapcsolásakor is biztosítani kell az adathasználatot a Salama Online számára\n\nA következő párbeszédablakban engedélyezni kell a „Háttér adat” és a „Korlátlan adathasználat” lehetőséget</string>
+    <string name="msg_filter">A szűrés használatával az adat és az energia használat attributumait a Salama Onlinehoz sorolja. Az Android azt feltételezi, hogy ezeket a Salama Online használta fel és nem az eredeti alkalmazás</string>
     <string name="msg_filter4">A szűrés engedélyezéséhez legalább Android 4 szükséges</string>
     <string name="msg_log_disabled">Forgalom naplózása le van tiltva, a fenti kapcsolóval engedélyezheti a naplózást. A forgalom naplózása extra akkumulátorhasználattal jár.</string>
     <string name="msg_clear_rules">Ez alaphelyzetbe állítja a szabályok és a feltételek értékeit</string>
@@ -141,7 +141,7 @@ Az Ön internetes forgalmát nem küldi el egy távoli VPN-kiszolgálóra.</stri
     <string name="msg_update_last">Utolsó frissítés: %s</string>
     <string name="msg_metered">Ez mért hálózat</string>
     <string name="msg_inactive">Nincs aktív internetkapcsolat</string>
-    <string name="msg_queue">A TrackerControl foglalt</string>
+    <string name="msg_queue">A Salama Online foglalt</string>
     <string name="msg_update">Frissítés érhető el, érintse meg a letöltéshez</string>
     <string name="msg_usage">Engedélyezni (zöldes) vagy tiltani (vöröses) tudja a Wi-Fi vagy mobil internet hozzáférést, ha megérinti az alkalmazás melletti ikont</string>
     <string name="msg_whitelist">Az internet hozzáférés alapértelmezésként engedélyezve van (blacklist mód), ezt meg lehet változtatni a beállításokban</string>
@@ -151,8 +151,8 @@ Az Ön internetes forgalmát nem küldi el egy távoli VPN-kiszolgálóra.</stri
     <string name="msg_vpn_cancelled">VPN kapcsolat megszüntetve\nBeállít másik VPN kapcsolatot, hogy a VPN-csatlakozás állandó legyen?</string>
     <string name="msg_unavailable">Ez a funkció nem érhető el ezen az Android verzión</string>
     <string name="msg_always_on">Másik VPN beállítása állandó VPN-nek</string>
-    <string name="msg_always_on_lockdown">Kapcsold ki a \"A VPN nélküli kapcsolatok blokkolását\" az Android VPN beállításaiban hogy a TrackerControlt használhasd szűrés módban</string>
-    <string name="msg_private_dns">Kapcsold ki a „Privát DNS”-t az Android hálózati beállításaiban, hogy a TrackerControlt szűrés módban használhasd</string>
+    <string name="msg_always_on_lockdown">Kapcsold ki a \"A VPN nélküli kapcsolatok blokkolását\" az Android VPN beállításaiban hogy a Salama Onlinet használhasd szűrés módban</string>
+    <string name="msg_private_dns">Kapcsold ki a „Privát DNS”-t az Android hálózati beállításaiban, hogy a Salama Onlinet szűrés módban használhasd</string>
     <string name="msg_start_forward">Port forwarding indítás %1$s port %2$d to %3$s:%4$d of \'%5$s\'?</string>
     <string name="msg_stop_forward">Port forwarding leállítás %1$s port %2$d?</string>
     <string name="msg_log_logcat">Figyelem: A blokkolás letiltva az ADB naplózás miatt.</string>
@@ -250,7 +250,7 @@ Az Ön internetes forgalmát nem küldi el egy távoli VPN-kiszolgálóra.</stri
     <string name="app_info">Alkalmazáskezelés</string>
     <!-- Actions -->
     <string name="block_tracking">Nyomkövetők blokkolása</string>
-    <string name="block_tracking_description">Számos alkalmazás küld adatokat harmadik félnek, úgynevezett nyomkövetőknek. A TrackerControl lehetővé teszi ezeknek hálózati adásoknak a szelektív blokkolását. Ennek ellenére használja ezt okosan, mivel az alkalmazásfejlesztők támaszkodnak ezekre a szolgáltatásokra, nevezetesen a reklámokra.</string>
+    <string name="block_tracking_description">Számos alkalmazás küld adatokat harmadik félnek, úgynevezett nyomkövetőknek. A Salama Online lehetővé teszi ezeknek hálózati adásoknak a szelektív blokkolását. Ennek ellenére használja ezt okosan, mivel az alkalmazásfejlesztők támaszkodnak ezekre a szolgáltatásokra, nevezetesen a reklámokra.</string>
     <string name="personalised_ads">Korlátozza a személyre szabást</string>
     <string name="personalised_ads_description">Az Android felajánlja az alkalmazások hozzáférésének korlátozását eszközének Google Hirdetési Azonosítójához. Az alkalmazások azonban figyelmen kívül hagyhatják ezt a beállítást, és továbbra is használják ezt az azonosítót. A Google irányelveinek megfelelően továbbra is gyűjthetik az azonosítót elemzési célokra. Bizalomra van szüksége a Google és az adatgyűjtő vállalat iránt.</string>
     <string name="data_managment">Adatok kezelése</string>
@@ -303,12 +303,12 @@ Az eltávolítási kérelmem oka, hogy visszavonom, vagy visszavontam a személy
 Kérem, hogy válaszát biztonságos módon, e-mailben adja meg. Várom, hogy a kérés kézhezvételétől számított egy hónapon belül választ kapjak.\n
 \n
 Tisztelettel,\n\n]]></string>
-    <string name="crash_dialog_text">Sajnálom. A TrackerControl éppen összeomlott.. Küldene nekünk egy e-mailt a részletekről?</string>
+    <string name="crash_dialog_text">Sajnálom. A Salama Online éppen összeomlott.. Küldene nekünk egy e-mailt a részletekről?</string>
     <string name="crash_dialog_comment">Bármi megjegyzés?</string>
     <string name="instructions_monitoring_private_dns">Kapcsolja be a kapcsolót és használjon néhány alkalmazást. A privát DNS-t le kell tiltani.</string>
     <string name="instructions_monitoring">Kapcsolja be a kapcsolót és használjon néhány alkalmazást.</string>
     <string name="device_not_supported_title">Az eszköz nem támogatott</string>
-    <string name="device_not_supported_msg">A készüléke operációs rendszere nem teszi lehetővé a hálózati kommunikáció nyomon követését és szűrését. Ehhez a TrackerControlra van szükség.</string>
+    <string name="device_not_supported_msg">A készüléke operációs rendszere nem teszi lehetővé a hálózati kommunikáció nyomon követését és szűrését. Ehhez a Salama Onlinera van szükség.</string>
     <string name="launch_app">Indítás &amp; Nyomkövetők keresése</string>
     <string name="countries">Célországok</string>
     <string name="countries_explanation">Tudja meg hová küldi a telefonja az adatokat.\n\nAz információk DNS kereséseken és IP információkon alapulnak és pontatlanok lehetnek.</string>
@@ -332,7 +332,7 @@ Tisztelettel,\n\n]]></string>
     <string name="no_trackers_found_action">Indítás</string>
     <string name="no_internet_message">"Ez az alkalmazás nem rendelkezik internet-hozzáféréssel. Lehet, hogy továbbra is nyomon követi az adatokat más alkalmazásokkal."</string>
     <string name="no_internet">Nincs internet-hozzáférés</string>
-    <string name="bypass_vpn_error">"Nem tudja blokkolni az internetet. Az App ki van zárva TrackerControlból."</string>
+    <string name="bypass_vpn_error">"Nem tudja blokkolni az internetet. Az App ki van zárva Salama Onlineból."</string>
     <string name="back">Vissza</string>
     <string name="forever_free">Örökre Ingyenes</string>
     <string name="your_privacy">Az Ön Személyes Adatai</string>
@@ -351,8 +351,8 @@ Tisztelettel,\n\n]]></string>
     <string name="detected_trackers">Észlelt nyomkövető könyvtárak: %s</string>
     <string name="none">Egyik sem</string>
     <string name="trackers_static">Nyomkövető könyvtárak</string>
-    <string name="trackers_static_explanation">A TrackerControl észleli a nyomkövetést a kódokban (könyvtárak) és az alkalmazások hálózati forgalmában.\n\nA hálózati forgalomban észlelt nyomkövetés a TrackerControllal blokkolható.</string>
-    <string name="trackers_static_explanation_playstore">A TrackerControl észleli a nyomkövetést a kódokban (könyvtárak) és az alkalmazások hálózati forgalmában.</string>
+    <string name="trackers_static_explanation">A Salama Online észleli a nyomkövetést a kódokban (könyvtárak) és az alkalmazások hálózati forgalmában.\n\nA hálózati forgalomban észlelt nyomkövetés a Salama Onlinelal blokkolható.</string>
+    <string name="trackers_static_explanation_playstore">A Salama Online észleli a nyomkövetést a kódokban (könyvtárak) és az alkalmazások hálózati forgalmában.</string>
     <string name="blocked">BLOKKOLT</string>
     <string name="allowed">ENGEDÉLYEZETT</string>
     <string name="setting_domain_based_blocked">Tartományalapú blokkolás</string>
@@ -360,7 +360,7 @@ Tisztelettel,\n\n]]></string>
     <string name="untap_unblock">Tipp: Az egyes bejegyzések tiltásának feloldásához érintse meg őket. Ez visszafelé is működik.</string>
     <string name="uncertain_entry">A \"*\" jelzéssel ellátott bejegyzések pontatlanok lehetnek az Android korlátai miatt. Ez általában azt jelenti, hogy ugyanaz a vállalat ugyanazt az IP-címet használja különböző területeken, de azt is jelenti, hogy a különböző vállalatok ugyanazon az IP-cím mögött vannak (például tartalomszállítási hálózatot használnak).</string>
     <string name="browsers_not_supported">A böngészők nem támogatottak ⚠️</string>
-    <string name="browsers_not_supported_explanation">Úgy tűnik, hogy ez egy böngészőalkalmazás.\n\nA böngészők nyomkövető blokkolását nem támogatja a TrackerControl. Használjon olyan böngészőt, amely nyomkövetés elleni védelemmel rendelkezik, hogy blokkolja a nyomon követést.\n\nPélda: Mozilla Fennec, Bromite</string>
+    <string name="browsers_not_supported_explanation">Úgy tűnik, hogy ez egy böngészőalkalmazás.\n\nA böngészők nyomkövető blokkolását nem támogatja a Salama Online. Használjon olyan böngészőt, amely nyomkövetés elleni védelemmel rendelkezik, hogy blokkolja a nyomon követést.\n\nPélda: Mozilla Fennec, Bromite</string>
     <string name="static_analysis">A nyomkövetők észlelése az alkalmazáskódban</string>
-    <string name="failed_loading_cached_analysis">A nyomkövető gyorsítótárazott eredményeinek betöltése nem sikerült. Kérjük jelentse ezt a fejlesztőnek a hello@trackercontrol.org címen</string>
+    <string name="failed_loading_cached_analysis">A nyomkövető gyorsítótárazott eredményeinek betöltése nem sikerült. Kérjük jelentse ezt a fejlesztőnek a hello@Salama Online.org címen</string>
 </resources>

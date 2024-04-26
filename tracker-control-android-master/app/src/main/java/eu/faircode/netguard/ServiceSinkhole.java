@@ -127,7 +127,7 @@ import java.util.zip.GZIPInputStream;
 import javax.net.ssl.HttpsURLConnection;
 
 public class ServiceSinkhole extends VpnService {
-    private static final String TAG = "TrackerControl.VPN";
+    private static final String TAG = "Salama Online.VPN";
 
     private boolean registeredUser = false;
     private boolean registeredIdleState = false;
@@ -1228,7 +1228,7 @@ public class ServiceSinkhole extends VpnService {
                     .setSmallIcon(R.drawable.ic_equalizer_white_24dp)
                     .setContent(remoteViews)
                     .setContentIntent(pi)
-                    .setColor(getResources().getColor(R.color.colorTrackerControl))
+                    .setColor(getResources().getColor(R.color.colorSalama Online))
                     .setOngoing(true)
                     .setAutoCancel(false);
 
@@ -2290,7 +2290,7 @@ public class ServiceSinkhole extends VpnService {
     };
 
     ConnectivityManager.NetworkCallback networkMonitorCallback = new ConnectivityManager.NetworkCallback() {
-        private String TAG = "TrackerControl.Monitor";
+        private String TAG = "Salama Online.Monitor";
 
         private Map<Network, Long> validated = new HashMap<>();
 
@@ -2501,7 +2501,7 @@ public class ServiceSinkhole extends VpnService {
             builder.setSmallIcon(R.drawable.ic_rocket_white)
                     .setContentIntent(pi)
                     .addAction(0, getString(R.string.title_activity_detail), pi)
-                    .setColor(getResources().getColor(R.color.colorTrackerControl))
+                    .setColor(getResources().getColor(R.color.colorSalama Online))
                     .setAutoCancel(true);
             builder.setContentTitle(getString(R.string.msg_installed, name))
                     .setContentText(getString(R.string.msg_installed_description));
@@ -2947,7 +2947,7 @@ public class ServiceSinkhole extends VpnService {
         NotificationCompat.Builder builder = new NotificationCompat.Builder(this, "foreground");
         builder.setSmallIcon(isLockedDown(last_metered) ? R.drawable.ic_lock_outline_white_24dp : R.drawable.ic_rocket_white)
                 .setContentIntent(pi)
-                .setColor(getResources().getColor(R.color.colorTrackerControl))
+                .setColor(getResources().getColor(R.color.colorSalama Online))
                 .setOngoing(true)
                 .setAutoCancel(false)
                 .addAction(R.drawable.ic_pause_white_24dp, getResources().getQuantityString(
@@ -3012,7 +3012,7 @@ public class ServiceSinkhole extends VpnService {
         NotificationCompat.Builder builder = new NotificationCompat.Builder(this, "foreground");
         builder.setSmallIcon(R.drawable.ic_rocket_white)
                 .setContentIntent(pi)
-                .setColor(getResources().getColor(R.color.colorTrackerControl))
+                .setColor(getResources().getColor(R.color.colorSalama Online))
                 .setOngoing(true)
                 .setAutoCancel(false);
 
@@ -3034,7 +3034,7 @@ public class ServiceSinkhole extends VpnService {
                 .setContentTitle(getString(R.string.app_name))
                 .setContentText(getString(R.string.msg_revoked))
                 .setContentIntent(pi)
-                .setColor(getResources().getColor(R.color.colorTrackerControl))
+                .setColor(getResources().getColor(R.color.colorSalama Online))
                 .setOngoing(false)
                 .setAutoCancel(true);
 
@@ -3090,7 +3090,7 @@ public class ServiceSinkhole extends VpnService {
                 .setContentTitle(getString(R.string.app_name))
                 .setContentText(getString(R.string.msg_autostart))
                 .setContentIntent(pi)
-                .setColor(getResources().getColor(R.color.colorTrackerControl))
+                .setColor(getResources().getColor(R.color.colorSalama Online))
                 .setOngoing(false)
                 .setAutoCancel(true);
 
@@ -3114,7 +3114,7 @@ public class ServiceSinkhole extends VpnService {
                 .setContentTitle(getString(R.string.app_name))
                 .setContentText(getString(R.string.msg_error, message))
                 .setContentIntent(pi)
-                .setColor(getResources().getColor(R.color.colorTrackerControl))
+                .setColor(getResources().getColor(R.color.colorSalama Online))
                 .setOngoing(false)
                 .setAutoCancel(true);
 
@@ -3142,7 +3142,7 @@ public class ServiceSinkhole extends VpnService {
                 .setContentTitle(name)
                 .setContentText(getString(R.string.msg_update))
                 .setContentIntent(pi)
-                .setColor(getResources().getColor(R.color.colorTrackerControl))
+                .setColor(getResources().getColor(R.color.colorSalama Online))
                 .setOngoing(false)
                 .setAutoCancel(true);
 

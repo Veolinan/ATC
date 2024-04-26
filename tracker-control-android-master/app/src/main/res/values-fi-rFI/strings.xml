@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_android">TrackerControl edellyttää vähintään Androidin versiota 5.1</string>
-    <string name="app_xposed">Xposed aiheuttaa liikaa kaatumisia, mikä voi johtaa TrackerControlin poistamiseen Google Play Kaupasta, joten TrackerControlia ei tueta, kun Xposed on asennettu</string>
+    <string name="app_android">Salama Online edellyttää vähintään Androidin versiota 5.1</string>
+    <string name="app_xposed">Xposed aiheuttaa liikaa kaatumisia, mikä voi johtaa Salama Onlinein poistamiseen Google Play Kaupasta, joten Salama Onlineia ei tueta, kun Xposed on asennettu</string>
     <string name="channel_foreground">Käynnissä olevat palvelut</string>
     <string name="channel_notify">Yleiset ilmoitukset</string>
     <string name="channel_access">Käytä ilmoituksia</string>
@@ -80,39 +80,39 @@
     <string name="setting_hosts">Tuo isäntätiedosto</string>
     <string name="setting_hosts_append">Tuo isäntätiedosto (liitä)</string>
     <string name="setting_hosts_download">Lataa isäntätiedosto</string>
-    <string name="summary_pause">Kun olet keskeyttänyt ilmoituksen, ota TrackerControl käyttöön automaattisesti uudelleen valitun minuutin jälkeen (poista tämä vaihtoehto kirjoittamalla 0).</string>
+    <string name="summary_pause">Kun olet keskeyttänyt ilmoituksen, ota Salama Online käyttöön automaattisesti uudelleen valitun minuutin jälkeen (poista tämä vaihtoehto kirjoittamalla 0).</string>
     <string name="summary_update">Tarkista uudet versiot GitHubista kahdesti päivässä</string>
     <string name="summary_tethering">Android-versiosta riippuen jakaminen voi toimia tai ei toimi. Sidottua liikennettä ei voida suodattaa.</string>
     <string name="summary_subnet">Ota aliverkon reititys käyttöön; saattaa sallia Wi-Fi-puhelut, mutta saattaa myös laukaista vikoja Androidissa ja lisätä akun käyttöä</string>
     <string name="summary_lan">Salli sovellusten muodostaa yhteys lähiverkko-osoitteisiin, kuten 10.0.0.0/8, 172.16.0.0/12 ja 192.168.0.0/16</string>
-    <string name="summary_ip6">Reititä IP-version 6 liikenne TrackerControliin, jotta se voidaan valikoivasti sallia tai estää</string>
-    <string name="summary_call">Poista TrackerControl käytöstä saapuvassa tai lähtevässä puhelussa. Tätä voidaan käyttää IP / Wi-Fi-puheluiden ongelmien kiertämiseen.</string>
+    <string name="summary_ip6">Reititä IP-version 6 liikenne Salama Onlineiin, jotta se voidaan valikoivasti sallia tai estää</string>
+    <string name="summary_call">Poista Salama Online käytöstä saapuvassa tai lähtevässä puhelussa. Tätä voidaan käyttää IP / Wi-Fi-puheluiden ongelmien kiertämiseen.</string>
     <string name="summary_system">Määritä säännöt järjestelmäsovelluksille (asiantuntijoille)</string>
     <string name="summary_track_usage">Mukana lähetettyjen ja vastaanotettujen tavujen asettamiseksi kustakin sovelluksesta ja osoitteesta. Tämä voi johtaa ylimääräiseen akun käyttöön.</string>
     <string name="summary_block_domains">VAROITUS: Estettyjä isäntiä ei näytetä käyttöliittymässä.</string>
     <string name="summary_rcode">Oletusarvo on 3 (NXDOMAIN), mikä tarkoittaa \'olematonta verkkotunnusta\'.</string>
     <string name="summary_validate">Verkkotunnus, jota käytetään internet-yhteyden vahvistamiseen portissa 443 (https).</string>
     <string name="summary_socks5_enabled">Vain TCP-liikenne lähetetään välityspalvelimeen</string>
-    <string name="summary_watchdog">Tarkista ajoittain, onko TrackerControl edelleen käynnissä (poista tämä vaihtoehto kirjoittamalla nolla). Tämä voi johtaa ylimääräiseen akun käyttöön.</string>
+    <string name="summary_watchdog">Tarkista ajoittain, onko Salama Online edelleen käynnissä (poista tämä vaihtoehto kirjoittamalla nolla). Tämä voi johtaa ylimääräiseen akun käyttöön.</string>
     <string name="msg_sure">Oletko varma?</string>
     <string name="msg_started">Seurantojen tarkistus</string>
     <string name="msg_waiting">Odottaa tapahtumaa</string>
-    <string name="msg_disabled">Ota yllä oleva kytkin käyttöön TrackerControl.</string>
-    <string name="msg_revoked">TrackerControl on poistettu käytöstä, todennäköisesti käyttämällä toista VPN-pohjaista sovellusta</string>
+    <string name="msg_disabled">Ota yllä oleva kytkin käyttöön Salama Online.</string>
+    <string name="msg_revoked">Salama Online on poistettu käytöstä, todennäköisesti käyttämällä toista VPN-pohjaista sovellusta</string>
     <string name="msg_installed_n">On asennettu</string>
     <string name="msg_completed">Toiminto valmis</string>
-    <string name="msg_vpn">TrackerControl suodattaa Internet-liikennettä paikallisen VPN: n avulla.
+    <string name="msg_vpn">Salama Online suodattaa Internet-liikennettä paikallisen VPN: n avulla.
 Tästä syystä salli VPN-yhteys seuraavassa valintaikkunassa.
 Internet-liikennettäsi ei lähetetä VPN-etäpalvelimeen.</string>
-    <string name="msg_autostart">TrackerControl ei käynnistynyt automaattisesti. Tämä johtuu todennäköisesti Android-version virheestä.</string>
+    <string name="msg_autostart">Salama Online ei käynnistynyt automaattisesti. Tämä johtuu todennäköisesti Android-version virheestä.</string>
     <string name="msg_error">Tapahtui odottamaton virhe: \'%s\'</string>
     <string name="msg_start_failed">Android kieltäytyi käynnistämästä VPN-palvelua tällä hetkellä. Tämä johtuu todennäköisesti Android-version virheestä.</string>
-    <string name="msg_try">Kokeile TrackerControlia</string>
-    <string name="msg_doze">Yhdenmukaisten tulosten saavuttamiseksi Android-akun optimoinnit tulisi poistaa käytöstä TrackerControlissa.
-\n\nValitse seuraavassa valintaikkunassa yläreunassa \"Kaikki sovellukset\", napauta luettelossa TrackerControl ja valitse ja vahvista \"Älä optimoi\".</string>
-    <string name="msg_datasaving">Yhdenmukaisten tulosten saavuttamiseksi Android-tietojen tallennusasetukset on poistettava käytöstä TrackerControlissa
+    <string name="msg_try">Kokeile Salama Onlineia</string>
+    <string name="msg_doze">Yhdenmukaisten tulosten saavuttamiseksi Android-akun optimoinnit tulisi poistaa käytöstä Salama Onlineissa.
+\n\nValitse seuraavassa valintaikkunassa yläreunassa \"Kaikki sovellukset\", napauta luettelossa Salama Online ja valitse ja vahvista \"Älä optimoi\".</string>
+    <string name="msg_datasaving">Yhdenmukaisten tulosten saavuttamiseksi Android-tietojen tallennusasetukset on poistettava käytöstä Salama Onlineissa
 \n\nOta seuraavassa valintaikkunassa käyttöön vaihtoehdot \"Taustatiedot\" ja \"Rajoittamaton tiedon käyttö\"</string>
-    <string name="msg_filter">Suodatuksen käyttö saa Androidin määrittelemään tiedot ja virrankulutuksen TrackerControlille - Android olettaa, että TrackerControl käyttää tietoja ja virtaa alkuperäisten sovellusten sijaan</string>
+    <string name="msg_filter">Suodatuksen käyttö saa Androidin määrittelemään tiedot ja virrankulutuksen Salama Onlineille - Android olettaa, että Salama Online käyttää tietoja ja virtaa alkuperäisten sovellusten sijaan</string>
     <string name="msg_filter4">Android 4 edellyttää, että suodatus on käytössä</string>
     <string name="msg_log_disabled">Liikenteen kirjaaminen on poistettu käytöstä, ota kirjaaminen käyttöön yllä olevalla kytkimellä. Liikenteen kirjaaminen voi johtaa ylimääräiseen akun käyttöön.</string>
     <string name="msg_clear_rules">Tämä palauttaa säännöt ja ehdot oletusarvoihinsa</string>
@@ -123,7 +123,7 @@ Internet-liikennettäsi ei lähetetä VPN-etäpalvelimeen.</string>
     <string name="msg_download_last">Viimeisin lataus: %s</string>
     <string name="msg_metered">Verkko on mitattu</string>
     <string name="msg_inactive">Ei aktiivista Internet-yhteyttä</string>
-    <string name="msg_queue">TrackerControl on varattu</string>
+    <string name="msg_queue">Salama Online on varattu</string>
     <string name="msg_update">Päivitys saatavilla, napauta ladataksesi</string>
     <string name="msg_usage">Voit sallia (vihertävän) tai estää (punertavan) Wi-Fi- tai mobiili-internetyhteyden napauttamalla sovelluksen vieressä olevia kuvakkeita</string>
     <string name="msg_whitelist">Internet-yhteys on oletusarvoisesti sallittu (mustan listan tila), sitä voidaan muuttaa asetuksissa</string>
@@ -133,8 +133,8 @@ Internet-liikennettäsi ei lähetetä VPN-etäpalvelimeen.</string>
     <string name="msg_vpn_cancelled">VPN-yhteys peruutettu\nOletko määrittänyt toisen VPN: n aina käytössä olevaksi VPN: ksi?</string>
     <string name="msg_unavailable">Tämä ominaisuus ei ole käytettävissä tässä Android-versiossa</string>
     <string name="msg_always_on">Toinen VPN on asetettu Always-on VPN</string>
-    <string name="msg_always_on_lockdown">Poista Estä yhteydet ilman VPN: ää käytöstä Android VPN -asetuksissa, jotta voit käyttää TrackerControlia suodatustilassa</string>
-    <string name="msg_private_dns">Poista yksityinen DNS käytöstä Android-verkkoasetuksissa, jotta voit käyttää TrackerControlia suodatustilassa</string>
+    <string name="msg_always_on_lockdown">Poista Estä yhteydet ilman VPN: ää käytöstä Android VPN -asetuksissa, jotta voit käyttää Salama Onlineia suodatustilassa</string>
+    <string name="msg_private_dns">Poista yksityinen DNS käytöstä Android-verkkoasetuksissa, jotta voit käyttää Salama Onlineia suodatustilassa</string>
     <string name="title_lockdown_enabled">Liikenne on lukittu</string>
     <string name="title_unmetered_allowed">Lukematon liikenne on sallittua</string>
     <string name="title_unmetered_blocked">Lukematon liikenne on estetty</string>
@@ -203,7 +203,7 @@ Internet-liikennettäsi ei lähetetä VPN-etäpalvelimeen.</string>
     <string name="app_info">Hallitse sovellusta</string>
     <!-- Actions -->
     <string name="block_tracking">Estä seurantalaitteet</string>
-    <string name="block_tracking_description">Monet sovellukset lähettävät tietoja kolmansille osapuolille, ns. TrackerControl sallii näiden verkkolähetysten estämisen valikoivasti. Käytä tätä kuitenkin viisaasti, koska sovelluskehittäjät luottavat näihin palveluihin, erityisesti mainontaan.</string>
+    <string name="block_tracking_description">Monet sovellukset lähettävät tietoja kolmansille osapuolille, ns. Salama Online sallii näiden verkkolähetysten estämisen valikoivasti. Käytä tätä kuitenkin viisaasti, koska sovelluskehittäjät luottavat näihin palveluihin, erityisesti mainontaan.</string>
     <string name="personalised_ads">Rajoita mukauttamista</string>
     <string name="personalised_ads_description">Android tarjoaa rajoittaa sovellusten pääsyä laitteesi Google Advertising ID: hen. Sovellukset voivat kuitenkin jättää tämän asetuksen huomiotta ja käyttää silti tätä tunnusta. He voivat myös jatkaa tämän tunnuksen keräämistä analyysitarkoituksiin Googlen käytäntöjen mukaisesti. Tarvitset luottamuksen Googleen ja tiedonkerääjään.</string>
     <string name="data_managment">Hallitse tietoja</string>
@@ -221,12 +221,12 @@ Internet-liikennettäsi ei lähetetä VPN-etäpalvelimeen.</string>
     <string name="google_dpo_mail">data-protection-office@google.com</string>
     <string name="dpas_overview_url">https://edpb.europa.eu/about-edpb/board/members</string>
     <string name="subject_request_data">GDPR-aihepyyntö</string>
-    <string name="crash_dialog_text">Anteeksi. TrackerControl kaatui juuri. Haluaisitko lähettää meille sähköpostia yksityiskohdilla?</string>
+    <string name="crash_dialog_text">Anteeksi. Salama Online kaatui juuri. Haluaisitko lähettää meille sähköpostia yksityiskohdilla?</string>
     <string name="crash_dialog_comment">Kommentteja?</string>
     <string name="instructions_monitoring_private_dns">Vaihda kytkintä ja ole vuorovaikutuksessa joidenkin sovellusten kanssa. Yksityinen DNS on poistettava käytöstä.</string>
     <string name="instructions_monitoring">Vaihda kytkintä ja ole vuorovaikutuksessa joidenkin sovellusten kanssa.</string>
     <string name="device_not_supported_title">Laitetta ei tueta</string>
-    <string name="device_not_supported_msg">Laitteesi käyttöjärjestelmä ei salli verkkoviestinnän seurantaa ja suodatusta. Tätä vaaditaan TrackerControlille.</string>
+    <string name="device_not_supported_msg">Laitteesi käyttöjärjestelmä ei salli verkkoviestinnän seurantaa ja suodatusta. Tätä vaaditaan Salama Onlineille.</string>
     <string name="launch_app">Käynnistää &amp; löytää seurantoja</string>
     <string name="countries">Kohdemaat</string>
     <string name="countries_explanation">Ota selvää, mihin puhelimesi lähettää seurantatietoja..\n\nTiedot perustuvat DNS-hakuihin ja IP-tietoihin ja voivat olla epätarkkoja.</string>
@@ -245,7 +245,7 @@ Internet-liikennettäsi ei lähetetä VPN-etäpalvelimeen.</string>
     <string name="no_trackers_found_action">Tuoda markkinoille</string>
     <string name="no_internet_message">"Tällä sovelluksella ei ole Internet-yhteyttä. Se saattaa silti seurata sinua vaihtamalla tietoja muiden sovellusten kanssa."</string>
     <string name="no_internet">Ei Internet-yhteyttä</string>
-    <string name="bypass_vpn_error">"Internetiä ei voi estää. Sovellus on suljettu pois TrackerControlista."</string>
+    <string name="bypass_vpn_error">"Internetiä ei voi estää. Sovellus on suljettu pois Salama Onlineista."</string>
     <string name="back">Takaisin</string>
     <string name="forever_free">Ikuisesti vapaa</string>
     <string name="your_privacy">Yksityisyytesi</string>

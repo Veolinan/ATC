@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_description">TrackerControl, kullanıcıların mobil uygulamalarda kullanıcı davranışıyla ilgili yaygın, devam eden, gizli veri toplama işlemini (\'tracking\') görmesine ve kontrol etmesine olanak tanır.</string>
-    <string name="app_copyright">Telif Hakkı \u00A9 2019-2022 Konrad Kollnig (İnsan merkezli Bilgi İşlem, Oxford Üniversitesi Bilgisayar Bilimleri Bölümü)\n\nTrackerControl, Marcel Bokhorst (M66B) tarafından geliştirilen NetGuard\'a dayanmaktadır.</string>
-    <string name="app_android">TrackerControl, Android 5.1 veya sonraki bir sürümünü gerektirir</string>
-    <string name="app_xposed">Xposed çok fazla çökmeye neden oluyor ve bu da TrackerControl\'ün Google Play Store\'dan kaldırılmasına neden olabilir, bu nedenle Xposed yüklüyken TrackerControl desteklenmez</string>
+    <string name="app_description">Salama Online, kullanıcıların mobil uygulamalarda kullanıcı davranışıyla ilgili yaygın, devam eden, gizli veri toplama işlemini (\'tracking\') görmesine ve kontrol etmesine olanak tanır.</string>
+    <string name="app_copyright">Telif Hakkı \u00A9 2019-2022 Konrad Kollnig (İnsan merkezli Bilgi İşlem, Oxford Üniversitesi Bilgisayar Bilimleri Bölümü)\n\nSalama Online, Marcel Bokhorst (M66B) tarafından geliştirilen NetGuard\'a dayanmaktadır.</string>
+    <string name="app_android">Salama Online, Android 5.1 veya sonraki bir sürümünü gerektirir</string>
+    <string name="app_xposed">Xposed çok fazla çökmeye neden oluyor ve bu da Salama Online\'ün Google Play Store\'dan kaldırılmasına neden olabilir, bu nedenle Xposed yüklüyken Salama Online desteklenmez</string>
     <string name="app_eula">Bu uygulamanın kullanımı kendi sorumluluğunuzdadır. Hiçbir uygulama izlemeye karşı %100 koruma sağlayamaz.</string>
-    <string name="app_privacy"><a href="https://github.com/TrackerControl/tracker-control-android#privacy-notice">Gizlilik Politikası</a> <a href="https://github.com/TrackerControl/tracker-control-android#cookie-policy">Çerez Politikası</a></string>
+    <string name="app_privacy"><a href="https://github.com/Salama Online/tracker-control-android#privacy-notice">Gizlilik Politikası</a> <a href="https://github.com/Salama Online/tracker-control-android#cookie-policy">Çerez Politikası</a></string>
     <string name="channel_foreground">Çalışan hizmetler</string>
     <string name="channel_notify">Genel bildirimler</string>
     <string name="channel_access">Bildirimlere erişim</string>
@@ -93,13 +93,13 @@
     <string name="setting_hosts_download">Hosts dosyasını indir</string>
     <string name="setting_hosts_update">Hosts dosyasını güncelleştir</string>
     <string name="summary_install">Yeni yüklenen uygulamalar için durum çubuğu bildirimini göster</string>
-    <string name="summary_pause">Bildirimi duraklattıktan sonra, seçilen dakika sayısından sonra TrackerControl\'ü otomatik olarak yeniden etkinleştirin (bu seçeneği devre dışı bırakmak için 0 girin).</string>
+    <string name="summary_pause">Bildirimi duraklattıktan sonra, seçilen dakika sayısından sonra Salama Online\'ü otomatik olarak yeniden etkinleştirin (bu seçeneği devre dışı bırakmak için 0 girin).</string>
     <string name="summary_update">Yeni sürümler için GitHub üzerinden günde iki defa kontrol et</string>
     <string name="summary_tethering">Android sürümüne bağlı olarak, internet paylaşımı çalışabilir yada çalışmayabilir. Paylaşılan internet trafiği filtrelenemez.</string>
     <string name="summary_subnet">Alt ağ yönlendirmesini etkinleştir; Wi-Fi aramasını etkinleştirebilir, fakat Android\'de hatalara sebep olup pil kullanımını arttırabilir</string>
     <string name="summary_lan">Uygulamaların 10.0.0.0/8, 172.16.0.0/12 ve 192.168.0.0/16 gibi yerel ağ adreslerine bağlanmasına izin ver</string>
-    <string name="summary_ip6">IP sürüm 6 trafiğini, seçici olarak izin verilebilmesi veya engellenebilmesi için TrackerControl\'e yönlendirin</string>
-    <string name="summary_call">Telefon aramalarında TrackerControl devre dışı bırakılsın. IP/Kablosuz üzerinden arama sorunlarını çözmek için kullanılabilir.</string>
+    <string name="summary_ip6">IP sürüm 6 trafiğini, seçici olarak izin verilebilmesi veya engellenebilmesi için Salama Online\'e yönlendirin</string>
+    <string name="summary_call">Telefon aramalarında Salama Online devre dışı bırakılsın. IP/Kablosuz üzerinden arama sorunlarını çözmek için kullanılabilir.</string>
     <string name="summary_system">Sistem uygulamalarına kural tanımlanmasını sağlar (gelişmiş kullanıcılar için)</string>
     <string name="summary_log_app">Pil kullanımını azaltmak için devre dışı bırakın. Yeni izleyiciler yine engellenecek, ancak gösterilmeyecek.</string>
     <string name="summary_track_usage">Her uygulama ve adres tarafından gönderilip alınan veri miktarını izleyin. Bu pil kullanımını arttırabilir.</string>
@@ -107,30 +107,30 @@
     <string name="summary_rcode">Varsayılan değer, \'var olmayan etki alanı\' anlamına gelen 3\'tür (NXDOMAIN).</string>
     <string name="summary_validate">443 (https) bağlantı noktasındaki internet bağlantısını doğrulamak için kullanılan alan adı.</string>
     <string name="summary_socks5_enabled">Sadece TCP trafiği vekil sunucuya gönderilecek</string>
-    <string name="summary_watchdog">TrackerControl\'ün hala çalışıp çalışmadığını periyodik olarak kontrol edin (bu seçeneği devre dışı bırakmak için sıfır girin). Bu, fazladan pil kullanımına neden olabilir.</string>
+    <string name="summary_watchdog">Salama Online\'ün hala çalışıp çalışmadığını periyodik olarak kontrol edin (bu seçeneği devre dışı bırakmak için sıfır girin). Bu, fazladan pil kullanımına neden olabilir.</string>
     <string name="summary_log_logcat">Engellemeyi devre dışı bırakır. İletişimler (ve tanımlanan izleyiciler) cihaz günlüğüne kaydedilir. \'TC-Log\' etiketli adb logcat ile alın.</string>
     <string name="msg_sure">Emin misiniz?</string>
     <string name="msg_started">İzleyiciler kontrol ediliyor</string>
     <string name="msg_waiting">Eylem bekleniyor</string>
-    <string name="msg_disabled">TrackerControl\'ü etkinleştirmek için yukarıdaki anahtarı kullanın.</string>
-    <string name="msg_revoked">TrackerControl, muhtemelen başka bir VPN tabanlı uygulama kullanılarak devre dışı bırakıldı</string>
+    <string name="msg_disabled">Salama Online\'ü etkinleştirmek için yukarıdaki anahtarı kullanın.</string>
+    <string name="msg_revoked">Salama Online, muhtemelen başka bir VPN tabanlı uygulama kullanılarak devre dışı bırakıldı</string>
     <string name="msg_installed">%1$s ile ilgili sorun mu yaşıyorsunuz?</string>
     <string name="msg_installed_description">Uygulamanın şirketlerle iletişim kurmasına izin verin</string>
     <string name="msg_installed_tracker_libraries_found">%d izleyici kitaplığı içeriyor</string>
     <string name="msg_installed_n">Yüklendi</string>
     <string name="msg_completed">Eylem tamamlandı</string>
-    <string name="msg_vpn">TrackerControl, internet trafiğini filtrelemek için yerel bir VPN kullanır.
+    <string name="msg_vpn">Salama Online, internet trafiğini filtrelemek için yerel bir VPN kullanır.
 Bu nedenle, lütfen bir sonraki iletişim kutusunda bir VPN bağlantısına izin verin.
 İnternet trafiğiniz uzak bir VPN sunucusuna gönderilmiyor.</string>
-    <string name="msg_autostart">TrackerControl otomatik olarak başlatılamadı. Bunun nedeni muhtemelen Android sürümünüzdeki bir hatadır.</string>
+    <string name="msg_autostart">Salama Online otomatik olarak başlatılamadı. Bunun nedeni muhtemelen Android sürümünüzdeki bir hatadır.</string>
     <string name="msg_error">Beklenmedik bir hata oluştu: \'%s\'</string>
     <string name="msg_start_failed">Android şu anda VPN hizmetini başlatmayı reddetti. Bunun nedeni muhtemelen Android sürümünüzdeki bir hatadır.</string>
-    <string name="msg_try">TrackerControl\'ü deneyin</string>
-    <string name="msg_doze">Tutarlı sonuçlar için, TrackerControl için Android pil optimizasyonları devre dışı bırakılmalıdır.
-\n\nBir sonraki iletişim kutusunda, en üstteki \"Tüm uygulamalar\"ı seçin, listeden TrackerControl\'e dokunun ve \"Optimize etme\"yi seçip onaylayın.</string>
-    <string name="msg_datasaving">Tutarlı sonuçlar için, TrackerControl için Android veri kaydetme seçenekleri devre dışı bırakılmalıdır.
+    <string name="msg_try">Salama Online\'ü deneyin</string>
+    <string name="msg_doze">Tutarlı sonuçlar için, Salama Online için Android pil optimizasyonları devre dışı bırakılmalıdır.
+\n\nBir sonraki iletişim kutusunda, en üstteki \"Tüm uygulamalar\"ı seçin, listeden Salama Online\'e dokunun ve \"Optimize etme\"yi seçip onaylayın.</string>
+    <string name="msg_datasaving">Tutarlı sonuçlar için, Salama Online için Android veri kaydetme seçenekleri devre dışı bırakılmalıdır.
 \n\nBir sonraki iletişim kutusunda, \"Arka plan verileri\" ve \"Sınırsız veri kullanımı\" seçeneklerini etkinleştirin</string>
-    <string name="msg_filter">Filtrelemenin kullanılması, Android\'in verileri ve güç kullanımını TrackerControl ile ilişkilendirmesine neden olur - Android, verilerin ve gücün orijinal uygulamalar yerine TrackerControl tarafından kullanıldığını varsayar</string>
+    <string name="msg_filter">Filtrelemenin kullanılması, Android\'in verileri ve güç kullanımını Salama Online ile ilişkilendirmesine neden olur - Android, verilerin ve gücün orijinal uygulamalar yerine Salama Online tarafından kullanıldığını varsayar</string>
     <string name="msg_filter4">Android 4 filtrelemenin etkinleştirilmesini gerektirir</string>
     <string name="msg_log_disabled">Trafik günlüğü devre dışı bırakıldı, yukarıdan etkinleştirebilirsiniz. Trafik günlüğünü etkinleştirmek pil kullanımını arttırabilir.</string>
     <string name="msg_clear_rules">Bu kural ve koşulları varsayılan değerlerine sıfırlar</string>
@@ -143,7 +143,7 @@ Bu nedenle, lütfen bir sonraki iletişim kutusunda bir VPN bağlantısına izin
     <string name="msg_update_last">Son güncelleme: %s</string>
     <string name="msg_metered">Mevcut ağ kotalı</string>
     <string name="msg_inactive">İnternet bağlantısı yok</string>
-    <string name="msg_queue">TrackerControl meşgul</string>
+    <string name="msg_queue">Salama Online meşgul</string>
     <string name="msg_update">Güncelleme mevcut, indirmek için dokunun</string>
     <string name="msg_usage">Uygulamanın yanındaki simgelere dokunarak kablosuz veya mobil veri erişimine izin verip (yeşil) engelleyebilirsiniz (kırmızı)</string>
     <string name="msg_whitelist">İnternet erişimine varsayılan olarak izin verilir (karaliste), bu ayarlardan değiştirilebilir</string>
@@ -153,8 +153,8 @@ Bu nedenle, lütfen bir sonraki iletişim kutusunda bir VPN bağlantısına izin
     <string name="msg_vpn_cancelled">VPN bağlantısı iptal edildi\nFarklı bir VPN\'i daima açık olarak ayarlamış olabilir misiniz?</string>
     <string name="msg_unavailable">Bu özellik, bu Android sürümünde mevcut değil</string>
     <string name="msg_always_on">Farklı bir VPN daima açık olarak ayarlanmış</string>
-    <string name="msg_always_on_lockdown">TrackerControl\'ü filtreleme modunda kullanmak için Android VPN ayarlarında \"VPN olmadan bağlantıları engelle\" seçeneğini kapatın</string>
-    <string name="msg_private_dns">TrackerControl filtrelemesini kullanmak için Android ağ ayarlarından \"Özel DNS\" seçeneğini kapatın</string>
+    <string name="msg_always_on_lockdown">Salama Online\'ü filtreleme modunda kullanmak için Android VPN ayarlarında \"VPN olmadan bağlantıları engelle\" seçeneğini kapatın</string>
+    <string name="msg_private_dns">Salama Online filtrelemesini kullanmak için Android ağ ayarlarından \"Özel DNS\" seçeneğini kapatın</string>
     <string name="msg_start_forward">\'%5$s\' için %1$s:%2$d -&gt; %3$s:%4$d yönlendirmesi başlatılsın mı?</string>
     <string name="msg_stop_forward">%1$s:%2$d yönlendirmesi durdurulsun mu?</string>
     <string name="msg_log_logcat">Uyarı: ADB günlüğü nedeniyle engelleme devre dışı bırakıldı.</string>
@@ -252,7 +252,7 @@ Bu nedenle, lütfen bir sonraki iletişim kutusunda bir VPN bağlantısına izin
     <string name="app_info">Uygulama Yönet</string>
     <!-- Actions -->
     <string name="block_tracking">İzleyicileri engelle</string>
-    <string name="block_tracking_description">Birçok uygulama, izleyiciler olarak adlandırılan üçüncü taraflara veri gönderir. TrackerControl, bu ağ aktarımlarının seçici olarak engellenmesini sağlar. Yine de, uygulama geliştiricileri bu hizmetlere, özellikle de reklamcılığa güvendiklerinden bunu akıllıca kullanın.</string>
+    <string name="block_tracking_description">Birçok uygulama, izleyiciler olarak adlandırılan üçüncü taraflara veri gönderir. Salama Online, bu ağ aktarımlarının seçici olarak engellenmesini sağlar. Yine de, uygulama geliştiricileri bu hizmetlere, özellikle de reklamcılığa güvendiklerinden bunu akıllıca kullanın.</string>
     <string name="personalised_ads">Kişiselleştirmeyi Sınırla</string>
     <string name="personalised_ads_description">Android, uygulamaların, cihazınızın Google Reklam Kimliğine erişimini sınırlamayı teklif eder. Ancak uygulamalar bu ayarı potansiyel olarak yok sayabilir ve yine de bu kimliği kullanabilir. Ayrıca, Google\'ın politikalarına göre analiz amacıyla bu kimliği toplamaya devam edebilirler. Google\'a ve veri toplama şirketine güvenmeniz gerekir.</string>
     <string name="data_managment">Verileri yönet</string>
@@ -305,12 +305,12 @@ Kaldırma talebimin nedeni, kişisel verilerimin işlenmesine ilişkin onayımı
 Lütfen yanıtınızı güvenli şekilde e-posta ile gönderin. Talebimin alınmasından itibaren bir ay içinde yanıt almayı dört gözle bekliyorum.\n
 \n
 Saygılarımla,\n\n]]></string>
-    <string name="crash_dialog_text">Afedersiniz. TrackerControl az önce çöktü. Bize ayrıntıları içeren bir e-posta gönderir misiniz?</string>
+    <string name="crash_dialog_text">Afedersiniz. Salama Online az önce çöktü. Bize ayrıntıları içeren bir e-posta gönderir misiniz?</string>
     <string name="crash_dialog_comment">Herhangi bir yorum?</string>
     <string name="instructions_monitoring_private_dns">Anahtarı değiştirin ve bazı uygulamalarla etkileşim kurun. Özel DNS devre dışı bırakılmalıdır.</string>
     <string name="instructions_monitoring">Anahtarı değiştirin ve bazı uygulamalarla etkileşim kurun.</string>
     <string name="device_not_supported_title">Cihazınız desteklenmiyor</string>
-    <string name="device_not_supported_msg">Cihazınızın işletim sistemi, ağ iletişimlerinin izlenmesine ve filtrelenmesine izin vermiyor. Bu, TrackerControl için gereklidir.</string>
+    <string name="device_not_supported_msg">Cihazınızın işletim sistemi, ağ iletişimlerinin izlenmesine ve filtrelenmesine izin vermiyor. Bu, Salama Online için gereklidir.</string>
     <string name="launch_app">&amp; başlatın; İzleyici bulun</string>
     <string name="countries">Hedef Ülkeler</string>
     <string name="countries_explanation">Telefonunuzun izleme verilerini nereye gönderdiğini öğrenin.\n\nBilgiler, DNS aramalarına ve IP bilgilerine dayanır ve yanlış olabilir.</string>
@@ -334,7 +334,7 @@ Saygılarımla,\n\n]]></string>
     <string name="no_trackers_found_action">Başlat</string>
     <string name="no_internet_message">"Bu uygulamanın İnternet erişimi yok. Diğer uygulamalarla veri alışverişi yaparak sizi izlemeye devam edebilir."</string>
     <string name="no_internet">İnternet erişimi yok</string>
-    <string name="bypass_vpn_error">"İnternet engellenemiyor. Uygulama, TrackerControl'den hariç tutulur."</string>
+    <string name="bypass_vpn_error">"İnternet engellenemiyor. Uygulama, Salama Online'den hariç tutulur."</string>
     <string name="back">Geri</string>
     <string name="forever_free">Ömür Boyu Ücretsiz</string>
     <string name="your_privacy">Kişisel Gizliliğiniz</string>
@@ -353,7 +353,7 @@ Saygılarımla,\n\n]]></string>
     <string name="detected_trackers">Algılanan izleyici kitaplıkları: %s</string>
     <string name="none">Hiç</string>
     <string name="trackers_static">İzleyici kitaplıkları</string>
-    <string name="trackers_static_explanation">TrackerControl, koddaki (\'kütüphaneler\') izlemeyi ve uygulamaların ağ trafiğini algılar.\n\nAğ trafiğinde tespit edilen izleme TrackerControl ile engellenebilir.</string>
+    <string name="trackers_static_explanation">Salama Online, koddaki (\'kütüphaneler\') izlemeyi ve uygulamaların ağ trafiğini algılar.\n\nAğ trafiğinde tespit edilen izleme Salama Online ile engellenebilir.</string>
     <string name="trackers_static_explanation_playstore">İzciKontrolü, koddaki (\'kütüphaneler\') izlemeyi ve uygulamaların ağ trafiğini algılar.</string>
     <string name="blocked">ENGELLENDİ</string>
     <string name="allowed">İZİN VERİLDİ</string>
@@ -364,5 +364,5 @@ Saygılarımla,\n\n]]></string>
     <string name="browsers_not_supported">Tarayıcılar desteklenmemektedir ⚠️</string>
     <string name="browsers_not_supported_explanation">Bu bir tarayıcı uygulaması gibi gözüküyor.\n\n Tarayıcılarda izcilerin engellenmesi İzciKontrolü tarafından desteklenmez. Bunun yerine, İzcileri daha iyi engellemek için, izleme önleme işlevi entegreli bir tarayıcı kullanın.\n\n Örneğin: Mozilla Fennec, Bromite</string>
     <string name="static_analysis">Uygulama kodundaki izleyicileri algıla</string>
-    <string name="failed_loading_cached_analysis">Önbelleğe alınmış izleyici sonuçları yüklenemedi. Lütfen bunu hello@trackercontrol.org adresinden geliştiriciye bildirin</string>
+    <string name="failed_loading_cached_analysis">Önbelleğe alınmış izleyici sonuçları yüklenemedi. Lütfen bunu hello@Salama Online.org adresinden geliştiriciye bildirin</string>
 </resources>

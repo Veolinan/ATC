@@ -92,7 +92,7 @@ import java.util.Date;
 import java.util.List;
 
 public class ActivityMain extends AppCompatActivity implements SharedPreferences.OnSharedPreferenceChangeListener {
-    private static final String TAG = "TrackerControl.Main";
+    private static final String TAG = "Salama Online.Main";
 
     private static int[] TITLES = new int[]{
             R.string.app_name,
@@ -604,7 +604,7 @@ public class ActivityMain extends AppCompatActivity implements SharedPreferences
             protected Throwable doInBackground(Object... objects) {
                 Uri target = data.getData();
                 if (data.hasExtra("org.openintents.extra.DIR_PATH"))
-                    target = Uri.parse(target + "/trackercontrol_log_" + new SimpleDateFormat("yyyyMMdd").format(new Date().getTime()) + ".csv");
+                    target = Uri.parse(target + "/Salama Online_log_" + new SimpleDateFormat("yyyyMMdd").format(new Date().getTime()) + ".csv");
                 Log.i(TAG, "Writing URI=" + target);
 
                 try (OutputStream out = getContentResolver().openOutputStream(target)){
@@ -985,7 +985,7 @@ public class ActivityMain extends AppCompatActivity implements SharedPreferences
         intent = new Intent(Intent.ACTION_CREATE_DOCUMENT);
         intent.addCategory(Intent.CATEGORY_OPENABLE);
         intent.setType("*/*");
-        intent.putExtra(Intent.EXTRA_TITLE, "trackercontrol_log_" + new SimpleDateFormat("yyyyMMdd").format(new Date().getTime()) + ".csv");
+        intent.putExtra(Intent.EXTRA_TITLE, "Salama Online_log_" + new SimpleDateFormat("yyyyMMdd").format(new Date().getTime()) + ".csv");
         return intent;
     }
 
@@ -1297,7 +1297,7 @@ public class ActivityMain extends AppCompatActivity implements SharedPreferences
         Intent intent = new Intent(Intent.ACTION_SEND);
         intent.setType("text/plain");
         intent.putExtra(Intent.EXTRA_SUBJECT, context.getString(R.string.app_name));
-        intent.putExtra(Intent.EXTRA_TEXT, context.getString(R.string.msg_try) + "\n\nhttps://github.com/TrackerControl/tracker-control-android\n\n");
+        intent.putExtra(Intent.EXTRA_TEXT, context.getString(R.string.msg_try) + "\n\nhttps://github.com/Salama Online/tracker-control-android\n\n");
         return intent;
     }
 
@@ -1313,6 +1313,6 @@ public class ActivityMain extends AppCompatActivity implements SharedPreferences
     }
 
     private static Intent getIntentSupport(Context context) {
-        return new Intent(Intent.ACTION_VIEW, Uri.parse("https://github.com/TrackerControl/tracker-control-android#support-trackercontrol"));
+        return new Intent(Intent.ACTION_VIEW, Uri.parse("https://github.com/Salama Online/tracker-control-android#support-Salama Online"));
     }
 }

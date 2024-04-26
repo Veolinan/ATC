@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_description">TrackerControl מאפשר למשתמשים לפקח ולשלוט באיסוף הנתונים הנרחב, המתמשך והנסתר באפליקציות לנייד על התנהגות המשתמש (\'מעקב\').</string>
-    <string name="app_copyright">זכויות יוצרים \u00A9 2019–2022 Konrad Kollnig (מחשוב במרכז אנושי, המחלקה למדעי המחשב, אוניברסיטת אוקספורד)\n\nTrackerControl מבוסס על NetGuard, שפותח על ידי מרסל בוקרסט (M66B).</string>
-    <string name="app_android">TrackerControl דורש אנדרואיד 5.1 ומעלה</string>
-    <string name="app_xposed">Xposed גורם ליותר מדי קריסות, מה שעלול לגרום להסרה של TrackerControl מחנות Google Play, לכן TrackerControl אינו נתמך כאשר Xposed מותקן</string>
+    <string name="app_description">Salama Online מאפשר למשתמשים לפקח ולשלוט באיסוף הנתונים הנרחב, המתמשך והנסתר באפליקציות לנייד על התנהגות המשתמש (\'מעקב\').</string>
+    <string name="app_copyright">זכויות יוצרים \u00A9 2019–2022 Konrad Kollnig (מחשוב במרכז אנושי, המחלקה למדעי המחשב, אוניברסיטת אוקספורד)\n\nSalama Online מבוסס על NetGuard, שפותח על ידי מרסל בוקרסט (M66B).</string>
+    <string name="app_android">Salama Online דורש אנדרואיד 5.1 ומעלה</string>
+    <string name="app_xposed">Xposed גורם ליותר מדי קריסות, מה שעלול לגרום להסרה של Salama Online מחנות Google Play, לכן Salama Online אינו נתמך כאשר Xposed מותקן</string>
     <string name="app_eula">השימוש באפליקציה זו הוא על אחריותך בלבד. אף אפליקציה לא יכולה להציע 100% הגנה מפני מעקב.</string>
-    <string name="app_privacy"><a href="https://github.com/TrackerControl/tracker-control-android#privacy-notice">מדיניות פרטיות</a> <a href="https://github.com/TrackerControl/tracker-control-android#cookie-policy">מדניות קובצי עוגיות</a></string>
+    <string name="app_privacy"><a href="https://github.com/Salama Online/tracker-control-android#privacy-notice">מדיניות פרטיות</a> <a href="https://github.com/Salama Online/tracker-control-android#cookie-policy">מדניות קובצי עוגיות</a></string>
     <string name="channel_foreground">שירות מופעל</string>
     <string name="channel_notify">הודעות כלליות</string>
     <string name="channel_access">גישה להתראות</string>
@@ -95,13 +95,13 @@
     <string name="setting_hosts_download">הורד קובץ מארחים</string>
     <string name="setting_hosts_update">עדכן את קובץ המארחים</string>
     <string name="summary_install">הצג הודעת שורת מצב עבור אפליקציות שהותקנו לאחרונה</string>
-    <string name="summary_pause">לאחר הפסקה מההתראה, הפעל שוב את TrackerControl באופן אוטומטי לאחר מספר הדקות שנבחר (הזן 0 כדי להשבית אפשרות זו).</string>
+    <string name="summary_pause">לאחר הפסקה מההתראה, הפעל שוב את Salama Online באופן אוטומטי לאחר מספר הדקות שנבחר (הזן 0 כדי להשבית אפשרות זו).</string>
     <string name="summary_update">בדוק אם יש מהדורות חדשות ב-GitHub פעמיים ביום</string>
     <string name="summary_tethering">בהתאם לגרסת האנדרואיד, שיתוף אינטרנט בין ניידים עשוי לעבוד או לא. לא ניתן לסנן תעבורה קשורה.</string>
     <string name="summary_subnet">אפשר ניתוב רשת משנה; עשוי לאפשר שיחות Wi-Fi, אך עשוי גם להפעיל באגים באנדרואיד ולהגביר את השימוש בסוללה</string>
     <string name="summary_lan">אפשר ליישומים להתחבר לכתובות רשת מקומית, כגון 10.0.0.0/8, 172.16.0.0/12 ו- 192.168.0.0/16</string>
-    <string name="summary_ip6">נתב תעבורת IP גרסת 6 אל TrackerControl כך שניתן יהיה לאפשר או לחסום אותה באופן סלקטיבי</string>
-    <string name="summary_call">השבת את TrackerControl בשיחת טלפון נכנסת או יוצאת. זה יכול לשמש כדי לעקוף בעיות שיחות IP/Wi-Fi.</string>
+    <string name="summary_ip6">נתב תעבורת IP גרסת 6 אל Salama Online כך שניתן יהיה לאפשר או לחסום אותה באופן סלקטיבי</string>
+    <string name="summary_call">השבת את Salama Online בשיחת טלפון נכנסת או יוצאת. זה יכול לשמש כדי לעקוף בעיות שיחות IP/Wi-Fi.</string>
     <string name="summary_system">הגדר כללים עבור אפליקציות מערכת (עבור מומחים)</string>
     <string name="summary_log_app">השבת כדי להפחית את השימוש בסוללה. עוקבים חדשים עדיין ייחסמו, אך לא יוצגו.</string>
     <string name="summary_track_usage">עקוב אחר מספר הבתים שנשלחו והתקבלו עבור כל אפליקציה וכתובת. זה עלול לגרום לשימוש נוסף בסוללה.</string>
@@ -109,30 +109,30 @@
     <string name="summary_rcode">ערך ברירת המחדל הוא 3 (NXDOMAIN), שפירושו \'דומיין לא קיים\'.</string>
     <string name="summary_validate">שם הדומיין המשמש לאימות חיבור האינטרנט ביציאה 443 (https).</string>
     <string name="summary_socks5_enabled">רק תעבורת TCP תישלח לשרת ה-proxy</string>
-    <string name="summary_watchdog">בדוק מעת לעת אם TrackerControl עדיין פועל (הזן אפס כדי להשבית אפשרות זו). זה עלול לגרום לשימוש נוסף בסוללה.</string>
+    <string name="summary_watchdog">בדוק מעת לעת אם Salama Online עדיין פועל (הזן אפס כדי להשבית אפשרות זו). זה עלול לגרום לשימוש נוסף בסוללה.</string>
     <string name="summary_log_logcat">משבית את החסימה. תקשורת (וגששים מזוהים) נרשמות ביומן המכשיר. אחזר עם adb logcat עם התג \'TC-Log\'.</string>
     <string name="msg_sure">אתה בטוח?</string>
     <string name="msg_started">בדוק עוקבים</string>
     <string name="msg_waiting">ממתין לאירוע</string>
-    <string name="msg_disabled">השתמש במתג למעלה כדי להפעיל את TrackerControl.</string>
-    <string name="msg_revoked">TrackerControl מנוטרל, ככל הנראה בגלל שימוש ביישום מבוסס VPN אחר</string>
+    <string name="msg_disabled">השתמש במתג למעלה כדי להפעיל את Salama Online.</string>
+    <string name="msg_revoked">Salama Online מנוטרל, ככל הנראה בגלל שימוש ביישום מבוסס VPN אחר</string>
     <string name="msg_installed">יש בעיות עם %1$s?</string>
     <string name="msg_installed_description">אפשר לאפליקציה ליצור קשר עם חברות</string>
     <string name="msg_installed_tracker_libraries_found">מכיל %d ספריות מעקב</string>
     <string name="msg_installed_n">הותקן</string>
     <string name="msg_completed">הפעולה הושלמה</string>
-    <string name="msg_vpn">TrackerControl משתמש ב-VPN מקומי כדי לסנן תעבורת אינטרנט.
+    <string name="msg_vpn">Salama Online משתמש ב-VPN מקומי כדי לסנן תעבורת אינטרנט.
 מסיבה זו, אנא אפשר חיבור VPN בתיבת הדו-שיח הבאה.
 תעבורת האינטרנט שלך לא נשלחת לשרת VPN מרוחק.</string>
-    <string name="msg_autostart">TrackerControl לא יכול היה להפעיל אוטומטית. זה כנראה בגלל באג בגרסת האנדרואיד שלך.</string>
+    <string name="msg_autostart">Salama Online לא יכול היה להפעיל אוטומטית. זה כנראה בגלל באג בגרסת האנדרואיד שלך.</string>
     <string name="msg_error">אירעה שגיאה בלתי צפויה: \'%s\'</string>
     <string name="msg_start_failed">אנדרואיד סירבה להפעיל את שירות ה-VPN ברגע זה. זה כנראה בגלל באג בגרסת האנדרואיד שלך.</string>
-    <string name="msg_try">נסה את TrackerControl</string>
-    <string name="msg_doze">לתוצאות עקביות, יש להשבית את אופטימיזציית הסוללה של אנדרואיד עבור TrackerControl.
-\n\nבתיבת הדו-שיח הבאה, בחר \"כל האפליקציות\" בחלק העליון, הקש על TrackerControl ברשימה ובחר ואשר \"אל תבצע אופטימיזציה\".</string>
-    <string name="msg_datasaving">לקבלת תוצאות עקביות, יש להשבית את אפשרויות שמירת הנתונים של אנדרואיד עבור TrackerControl
+    <string name="msg_try">נסה את Salama Online</string>
+    <string name="msg_doze">לתוצאות עקביות, יש להשבית את אופטימיזציית הסוללה של אנדרואיד עבור Salama Online.
+\n\nבתיבת הדו-שיח הבאה, בחר \"כל האפליקציות\" בחלק העליון, הקש על Salama Online ברשימה ובחר ואשר \"אל תבצע אופטימיזציה\".</string>
+    <string name="msg_datasaving">לקבלת תוצאות עקביות, יש להשבית את אפשרויות שמירת הנתונים של אנדרואיד עבור Salama Online
 \n\nבתיבת הדו-שיח הבאה, הפעל את האפשרויות \"נתוני רקע\" ו\"שימוש בלתי מוגבל בנתונים\"</string>
-    <string name="msg_filter">שימוש בסינון יגרום ל-אנדרואיד לייחס נתונים וצריכת חשמל ל-TrackerControl - אנדרואיד מניח שהנתונים והכוח נמצאים בשימוש על-ידי TrackerControl, ולא האפליקציות המקוריות</string>
+    <string name="msg_filter">שימוש בסינון יגרום ל-אנדרואיד לייחס נתונים וצריכת חשמל ל-Salama Online - אנדרואיד מניח שהנתונים והכוח נמצאים בשימוש על-ידי Salama Online, ולא האפליקציות המקוריות</string>
     <string name="msg_filter4">אנדרואיד 4 דורש סינון כדי להיות מופעל</string>
     <string name="msg_log_disabled">רישום תנועה מושבת, השתמש במתג למעלה כדי לאפשר רישום. רישום תנועה עלול לגרום לשימוש נוסף בסוללה.</string>
     <string name="msg_clear_rules">זה יאפס את הכללים והתנאים לערכי ברירת המחדל שלהם</string>
@@ -145,7 +145,7 @@
     <string name="msg_update_last">עדכון אחרון: %s</string>
     <string name="msg_metered">הרשת נמדדת</string>
     <string name="msg_inactive">אין חיבור אינטרנט פעיל</string>
-    <string name="msg_queue">TrackerControl תפוס</string>
+    <string name="msg_queue">Salama Online תפוס</string>
     <string name="msg_update">היי יש עדכון זמין, הקש כדי להוריד</string>
     <string name="msg_usage">אתה יכול לאפשר (ירקרק) או לדחות (אדמדם) גישה לאינטרנט אלחוטי או סלולרי על ידי הקשה על הסמלים שליד אפליקציה</string>
     <string name="msg_whitelist">גישה לאינטרנט מותרת כברירת מחדל (מצב רשימה שחורה), ניתן לשנות זאת בהגדרות</string>
@@ -155,8 +155,8 @@
     <string name="msg_vpn_cancelled">חיבור VPN בוטל\nהאם הגדרת VPN אחר להיות VPN תמידי?</string>
     <string name="msg_unavailable">תכונה זו אינה זמינה בגרסת אנדרואיד זו</string>
     <string name="msg_always_on">VPN אחר מוגדר כ-VPN תמידי</string>
-    <string name="msg_always_on_lockdown">כבה את \"חסום חיבורים ללא VPN\" בהגדרות VPN של אנדרואיד כדי להשתמש ב-TrackerControl במצב סינון</string>
-    <string name="msg_private_dns">כבה את \"DNS פרטי\" בהגדרות רשת אנדרואיד כדי להשתמש ב-TrackerControl במצב סינון</string>
+    <string name="msg_always_on_lockdown">כבה את \"חסום חיבורים ללא VPN\" בהגדרות VPN של אנדרואיד כדי להשתמש ב-Salama Online במצב סינון</string>
+    <string name="msg_private_dns">כבה את \"DNS פרטי\" בהגדרות רשת אנדרואיד כדי להשתמש ב-Salama Online במצב סינון</string>
     <string name="msg_start_forward">האם להתחיל להעביר מ-%1$s יציאה %2$d ל-%3$s:%4$d של \'%5$s\'?</string>
     <string name="msg_stop_forward">להפסיק את ההעברה של יציאה %1$s %2$d?</string>
     <string name="msg_log_logcat">אזהרה: החסימה מושבתת בגלל רישום ADB.</string>
@@ -258,7 +258,7 @@
     <string name="app_info">ניהול אפליקציה</string>
     <!-- Actions -->
     <string name="block_tracking">חסימת עוקבים</string>
-    <string name="block_tracking_description">אפליקציות רבות שולחות נתונים לצד שלישי, מה שנקרא עוקבים. TrackerControl מאפשר לחסום שידורי רשת אלה באופן סלקטיבי. עם זאת, השתמש בזה בחוכמה, מכיוון שמפתחי אפליקציות מסתמכים על שירותים אלה, בעיקר פרסום.</string>
+    <string name="block_tracking_description">אפליקציות רבות שולחות נתונים לצד שלישי, מה שנקרא עוקבים. Salama Online מאפשר לחסום שידורי רשת אלה באופן סלקטיבי. עם זאת, השתמש בזה בחוכמה, מכיוון שמפתחי אפליקציות מסתמכים על שירותים אלה, בעיקר פרסום.</string>
     <string name="personalised_ads">הגבל התאמה אישית</string>
     <string name="personalised_ads_description">אנדרואיד מציעה להגביל את הגישה של אפליקציות למזהה הפרסום של גוגל של המכשיר שלך. עם זאת, אפליקציות עלולות להתעלם מהגדרה זו, ועדיין להשתמש במזהה זה. הם יכולים גם להמשיך לאסוף מזהה זה למטרות ניתוח, בהתאם למדיניות של גוגל. אתה צריך אמון בגוגל ובחברת איסוף הנתונים.</string>
     <string name="data_managment">נהל נתונים</string>
@@ -289,12 +289,12 @@
  אנא ספק את תגובתך באמצעים מאובטחים בדוא"ל. אני מצפה לקבל תשובה תוך חודש מיום קבלת הבקשה שלי.\n
  \n
  בכבוד רב,\n\n]]></string>
-    <string name="crash_dialog_text">מצטער. TrackerControl פשוט קרס.. אכפת לך לשלוח לנו מייל עם פרטים?</string>
+    <string name="crash_dialog_text">מצטער. Salama Online פשוט קרס.. אכפת לך לשלוח לנו מייל עם פרטים?</string>
     <string name="crash_dialog_comment">הערות כלשהן?</string>
     <string name="instructions_monitoring_private_dns">החלף את המתג ופעל עם אפליקציות מסוימות. יש להשבית DNS פרטי.</string>
     <string name="instructions_monitoring">החלף את המתג ופעל עם אפליקציות מסוימות.</string>
     <string name="device_not_supported_title">מכשיר לא נתמך</string>
-    <string name="device_not_supported_msg">מערכת ההפעלה של המכשיר שלך אינה מאפשרת ניטור וסינון של תקשורת רשת. זה נדרש עבור TrackerControl.</string>
+    <string name="device_not_supported_msg">מערכת ההפעלה של המכשיר שלך אינה מאפשרת ניטור וסינון של תקשורת רשת. זה נדרש עבור Salama Online.</string>
     <string name="launch_app">הפעל &amp; כדי למצוא עוקבים</string>
     <string name="countries">מדינות יעד</string>
     <string name="countries_explanation">גלה לאן הטלפון שלך שולח נתוני מעקב.\n\nמידע מבוסס על חיפושי DNS ומידע IP, וייתכן שהוא לא מדויק.</string>
@@ -318,7 +318,7 @@
     <string name="no_trackers_found_action">פתח</string>
     <string name="no_internet_message">"לאפליקציה הזו אין גישה לאינטרנט. ייתכן שהוא עדיין עוקב אחריך על ידי החלפת נתונים עם אפליקציות אחרות."</string>
     <string name="no_internet">אין גישה לאינטרנט</string>
-    <string name="bypass_vpn_error">"לא ניתן לחסום את האינטרנט. האפליקציה אינה נכללת ב-TrackerControl."</string>
+    <string name="bypass_vpn_error">"לא ניתן לחסום את האינטרנט. האפליקציה אינה נכללת ב-Salama Online."</string>
     <string name="back">חזור</string>
     <string name="forever_free">לעולם חופשי</string>
     <string name="your_privacy">הפרטיות שלך</string>
@@ -337,8 +337,8 @@
     <string name="detected_trackers">ספריות מעקב שזוהו: %s</string>
     <string name="none">ללא</string>
     <string name="trackers_static">ספריות גשש</string>
-    <string name="trackers_static_explanation">TrackerControl מזהה מעקב בקוד (\'ספריות\') ותעבורת רשת של אפליקציות.\n\nניתן לחסום מעקב שמתגלה בתעבורת הרשת באמצעות TrackerControl.</string>
-    <string name="trackers_static_explanation_playstore">TrackerControl מזהה מעקב בקוד (\'ספריות\') ותעבורת רשת של אפליקציות.</string>
+    <string name="trackers_static_explanation">Salama Online מזהה מעקב בקוד (\'ספריות\') ותעבורת רשת של אפליקציות.\n\nניתן לחסום מעקב שמתגלה בתעבורת הרשת באמצעות Salama Online.</string>
+    <string name="trackers_static_explanation_playstore">Salama Online מזהה מעקב בקוד (\'ספריות\') ותעבורת רשת של אפליקציות.</string>
     <string name="blocked">חסום</string>
     <string name="allowed">מאופשר</string>
     <string name="setting_domain_based_blocked">חסימה מבוססת דומיין</string>
@@ -346,7 +346,7 @@
     <string name="untap_unblock">טיפ: אתה יכול לבטל חסימה של ערכים בודדים על ידי הקשה עליהם.</string>
     <string name="uncertain_entry">ערכים המסומנים ב-\'*\' עשויים להיות לא מדויקים, עקב המגבלות של אנדרואיד. זה בדרך כלל אומר שאותה חברה משתמשת באותה כתובת IP תחת דומיינים שונים, אבל יכול גם להיות שחברות שונות עומדות מאחורי אותה כתובת IP (למשל אם הן משתמשות ברשת להעברת תוכן).</string>
     <string name="browsers_not_supported">דפדפנים לא נתמכים ⚠️</string>
-    <string name="browsers_not_supported_explanation">נראה שזוהי אפליקציית דפדפן.\n\nחסימת עוקבים בדפדפנים אינה נתמכת על ידי TrackerControl. במקום זאת, השתמש בדפדפן עם פונקציונליות משולבת נגד מעקב כדי לחסום טוב יותר את המעקב.\n\nלדוגמה: Mozilla Fennec, Bromite</string>
+    <string name="browsers_not_supported_explanation">נראה שזוהי אפליקציית דפדפן.\n\nחסימת עוקבים בדפדפנים אינה נתמכת על ידי Salama Online. במקום זאת, השתמש בדפדפן עם פונקציונליות משולבת נגד מעקב כדי לחסום טוב יותר את המעקב.\n\nלדוגמה: Mozilla Fennec, Bromite</string>
     <string name="static_analysis">זיהוי עוקבים בקוד האפליקציה</string>
-    <string name="failed_loading_cached_analysis">טעינת תוצאות המעקב בקובץ השמור נכשלה. אנא דווח על כך למפתח בכתובת hello@trackercontrol.org</string>
+    <string name="failed_loading_cached_analysis">טעינת תוצאות המעקב בקובץ השמור נכשלה. אנא דווח על כך למפתח בכתובת hello@Salama Online.org</string>
 </resources>

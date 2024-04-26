@@ -56,7 +56,7 @@ import java.util.Locale;
 import java.util.Map;
 
 public class Rule {
-    private static final String TAG = "TrackerControl.Rule";
+    private static final String TAG = "Salama Online.Rule";
 
     public int uid;
     public String packageName;

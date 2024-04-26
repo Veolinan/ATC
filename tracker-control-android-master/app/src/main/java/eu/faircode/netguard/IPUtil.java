@@ -30,7 +30,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class IPUtil {
-    private static final String TAG = "TrackerControl.IPUtil";
+    private static final String TAG = "Salama Online.IPUtil";
 
     public static List<CIDR> toCIDR(String start, String end) throws UnknownHostException {
         return toCIDR(InetAddress.getByName(start), InetAddress.getByName(end));

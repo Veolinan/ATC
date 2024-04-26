@@ -1,4 +1,4 @@
-- Save lots of battery when using TrackerControl UI: store results from tracker library analysis
+- Save lots of battery when using Salama Online UI: store results from tracker library analysis
 - Show number of tracker libraries in app install notifications (if this app has Internet access)
 - Implement parsing of Server Name Indication in Play Store version for better detection
 - Implement basic IP-based tracker detection and blocking

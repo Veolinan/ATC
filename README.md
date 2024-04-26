@@ -1,12 +1,12 @@
 # Android Ads Tracker Control
 
 
-TrackerControl is an Android app that allows users to monitor and control the widespread,
+Salama Online is an Android app that allows users to monitor and control the widespread,
 ongoing, hidden data collection in mobile apps about user behaviour ('tracking').
 
-To detect tracking, TrackerControl combines the power of the *Disconnect blocklist*, 
+To detect tracking, Salama Online combines the power of the *Disconnect blocklist*, 
 used by Firefox, and of our in-house blocklist, created *from analysing ~2&nbsp;00&nbsp;+ apps*!
-Additionally, TrackerControl supports custom blocklists and uses the signatures from [ClassyShark3xodus](https://f-droid.org/en/packages/com.oF2pks.classyshark3xodus/)/[Exodus Privacy](https://exodus-privacy.eu.org/) for the analysis of tracker libraries within app code.
+Additionally, Salama Online supports custom blocklists and uses the signatures from [ClassyShark3xodus](https://f-droid.org/en/packages/com.oF2pks.classyshark3xodus/)/[Exodus Privacy](https://exodus-privacy.eu.org/) for the analysis of tracker libraries within app code.
 
 This approach
 - reveals the companies behind tracking,
@@ -15,12 +15,12 @@ This approach
 
 The app also aims to educate about *your rights* under Data Protection Law, such the EU General Data Protection Regulation (GDPR) and Kenya's Data Protection Act, 2019.
 
-Under the hood, TrackerControl uses Android's VPN functionality,
+Under the hood, Salama Online uses Android's VPN functionality,
 to analyse apps' network communications *locally on the Android device*.
-This is accomplished through a local VPN server, to enable network traffic analysis by TrackerControl.
+This is accomplished through a local VPN server, to enable network traffic analysis by Salama Online.
 
 No root is required, other VPNs or Private DNS are not supported.
-No external VPN server is used, to keep your data safe! TrackerControl even protects you
+No external VPN server is used, to keep your data safe! Salama Online even protects you
 against *DNS cloaking*, a popular technique to hide trackers in websites and apps.
 
 ## Contents
@@ -39,32 +39,32 @@ against *DNS cloaking*, a popular technique to hide trackers in websites and app
 ## Example Use
 *Disclaimer: The usage of this app is at your own risk. No app can offer 100% protection against tracking. Analysis results shown within the app might be inaccurate.*
 
-TrackerControl is mainly designed to help you investigate the tracking practices of the apps on your smartphone. For this purpose, TrackerControl combines two analysis techniques: tracker library analysis and network traffic analysis.
+Salama Online is mainly designed to help you investigate the tracking practices of the apps on your smartphone. For this purpose, Salama Online combines two analysis techniques: tracker library analysis and network traffic analysis.
 
 ### Network traffic analysis
 
-Mobile trackers rely on the sending of personal data over the internet. This is why tracking can be detected and analysed from apps' network traffic. This is the core functionality of TrackerControl. The advantage of this approach over tracker library analysis is that actual evidence of data sharing is gathered; by contrast, when analysing solely the presence of tracking libraries in apps, some of these libraries may never be activated by an app at run-time.
-TrackerControl does not block network traffic and additionally resolves contacted domains using TLS Server Name Indication.
+Mobile trackers rely on the sending of personal data over the internet. This is why tracking can be detected and analysed from apps' network traffic. This is the core functionality of Salama Online. The advantage of this approach over tracker library analysis is that actual evidence of data sharing is gathered; by contrast, when analysing solely the presence of tracking libraries in apps, some of these libraries may never be activated by an app at run-time.
+Salama Online does not block network traffic and additionally resolves contacted domains using TLS Server Name Indication.
 
-You analyse apps network traffic by following the steps within the app to enable the VPN. Consequently, TrackerControl keeps track of any contacted tracking domain. Note that you need to interact with apps of interest in order to make these apps share data with tracking companies over the internet.
+You analyse apps network traffic by following the steps within the app to enable the VPN. Consequently, Salama Online keeps track of any contacted tracking domain. Note that you need to interact with apps of interest in order to make these apps share data with tracking companies over the internet.
 
-You can export the results of your analysis from the app menu TrackerControl to CSV ("Export as CSV"). If you export to CSV from the main screen of TrackerControl, you can create nice visualisations of your exported traffic data using purpose-built software by [Hestia Labs](https://digipower.academy/experience/tracker-control).
+You can export the results of your analysis from the app menu Salama Online to CSV ("Export as CSV"). If you export to CSV from the main screen of Salama Online, you can create nice visualisations of your exported traffic data using purpose-built software by [Hestia Labs](https://digipower.academy/experience/tracker-control).
 
 It is further possible to enable the direct logging of contacted domains to the console. This is helpful for research studies that instrument apps using an additional computer and can be enabled through Settings -> Advanced options -> Log transmissions to ADB. Note that this disables any blocking.
 
 By default, the analysis of system apps is disabled. This is because the analysis of the network traffic of system apps can lead to unexpected behaviour and should only be used by experienced users. You can enable the analysis of system apps through Settings -> Advanced Options -> Manage system apps. The analysis of system apps might be helpful if you want to analyse the data sharing of sytem apps, such as Google Maps, YouTube or the Google Play Service, all of which might be used by other apps to do tracking for them. In other words, without looking at system apps, some tracking might be missed; the challenge here, however, is that it's difficult to differentiate different apps that use other Google apps for tracking. This means that for a robust analysis, it's prudent to uninstall and deactivate as many apps on the user's phone as possible.
 
-TrackerControl also has a traffic log functionality that can be accssed from the menu bar. If enabled, contacted tracking domains will be highlighted in **bold**. Note, however, that the traffic log currently lacks a display of whether there's ambiguity in the contacted domains (as opposed to the per-app screens that show when certain domains are *uncertain*). Displayed domains can be inaccurate.
+Salama Online also has a traffic log functionality that can be accssed from the menu bar. If enabled, contacted tracking domains will be highlighted in **bold**. Note, however, that the traffic log currently lacks a display of whether there's ambiguity in the contacted domains (as opposed to the per-app screens that show when certain domains are *uncertain*). Displayed domains can be inaccurate.
 
 ### Tracker library analysis
 
-In addition to the analysing of apps' network traffic, TrackerControl can also detect the presence of tracking libraries within apps' code. Compared to network traffic analysis, this approach might pick up additional tracking practices that are not observed during testing in a lab setting, but may occur in a real-world scenario.
+In addition to the analysing of apps' network traffic, Salama Online can also detect the presence of tracking libraries within apps' code. Compared to network traffic analysis, this approach might pick up additional tracking practices that are not observed during testing in a lab setting, but may occur in a real-world scenario.
 
-The analysis of tracker libraries in code is rather straightforward. You only need to select an app of interest from the main screen of TrackerControl.
+The analysis of tracker libraries in code is rather straightforward. You only need to select an app of interest from the main screen of Salama Online.
 
 
 ## Highlights
-TrackerControl provides
+Salama Online provides
 - *real-time monitoring* of app tracking, including destination companies and countries,
 - *granular blocking* of app tracking,
 - *one-click data requests* as granted under EU Data Protection Legislation,
@@ -91,33 +91,33 @@ Next, you just need to start the building process from within Android Studio.
 
 ## Privacy Notice
 
-TrackerControl does not send any personal data off your device.
+Salama Online does not send any personal data off your device.
 
-TrackerControl allows users to monitor the network communications on their
+Salama Online allows users to monitor the network communications on their
 Android device.
 This network data qualifies as personal data, but is only processed
 locally on the user's device.
 
-If the user consents, TrackerControl contacts the Google Play Store
+If the user consents, Salama Online contacts the Google Play Store
 to retrieve further information about the users' apps.
 The app automatically contacts GitHub to check for updates,
 which can be disabled from the app settings.
 No personal data is ever shared, other than what is strictly
 necessary for network communications (e.g. IP address).
 
-TrackerControl uses the ACRA plugin. This is considered to be a 'good' tracker.
+Salama Online uses the ACRA plugin. This is considered to be a 'good' tracker.
 It's open-source, and could be used to collect crash reports automatically
-to a server–TrackerControl DOES NOT do this. Instead, the user must app report crashes
-manually, via e-mail. ACRA shows a dialog to do this in TrackerControl.
+to a server–Salama Online DOES NOT do this. Instead, the user must app report crashes
+manually, via e-mail. ACRA shows a dialog to do this in Salama Online.
 
-TrackerControl itself never sends any personal data off your device. 
+Salama Online itself never sends any personal data off your device. 
 
 ## Cookie Policy
 
-TrackerControl does not use cookies of any kind.
+Salama Online does not use cookies of any kind.
 
 The only information saved on the user's device is non-identifying
-and strictly necessary for the operation of TrackerControl:
+and strictly necessary for the operation of Salama Online:
 
 1. a database of network communications, and
 2. user settings.
@@ -128,13 +128,13 @@ removed manually by the user (e.g. by uninstalling).
 ## Credits
 The app builds upon a range of publicly available resources:
 
-*X-Ray Tracker List:* TrackerControl also uses the tracker blocklist by Reuben Binns, Ulrik Lyngs,
+*X-Ray Tracker List:* Salama Online also uses the tracker blocklist by Reuben Binns, Ulrik Lyngs,
 Max Van Kleek, Jun Zhao, Timothy Libert, and Nigel Shadbolt from the [X-Ray project](https://www.sociam.org/mobile-app-x-ray), created *from analysing ~1&nbsp;000&nbsp;000 apps*.
 This database was released as part of their 2018 paper on
 [Third Party Tracking in the Mobile Ecosystem](https://doi.org/10.1145/3201064.3201089).
 The original data can be retrieved [here](https://osf.io/4nu9e/).
 
-*Disconnect Tracker List:* TrackerControl integrates the [Disconnect list](https://github.com/mozilla-services/shavar-prod-lists) of known tracker domains,
+*Disconnect Tracker List:* Salama Online integrates the [Disconnect list](https://github.com/mozilla-services/shavar-prod-lists) of known tracker domains,
 that is distributed with the Firefox browser.
 
 *Steven Black's Blocklist*: A state-of-the-art blocklist. This is used as fallback, if no company information is known from the other tracker lists. More [here](https://github.com/StevenBlack/hosts).
@@ -143,15 +143,15 @@ that is distributed with the Firefox browser.
 
 *GDPR Requests:* For the GDPR requests, the templates from the website [My Data Done Right](https://www.mydatadoneright.eu/) by the NGO "Bits of Freedom" were adopted.
 
-*Country Visualisation*: TrackerControl offers to visualise the countries to which trackers sent data. The code was kindly offered by [Takuma Seno](https://github.com/takuseno/GeoMap). To map IP addresses to countries, TrackerControl includes the GeoLite2 database, created by MaxMind, available from <https://www.maxmind.com>.
+*Country Visualisation*: Salama Online offers to visualise the countries to which trackers sent data. The code was kindly offered by [Takuma Seno](https://github.com/takuseno/GeoMap). To map IP addresses to countries, Salama Online includes the GeoLite2 database, created by MaxMind, available from <https://www.maxmind.com>.
 
-*ClassyShark3xodus*: TrackerControl allows to detect trackers in the app code. The signatures to do this are taken from [ClassyShark3xodus](https://bitbucket.org/oF2pks/fdroid-classyshark3xodus/src/master/ClassySharkAndroid/app/src/main/res/values/arrays.xml).
+*ClassyShark3xodus*: Salama Online allows to detect trackers in the app code. The signatures to do this are taken from [ClassyShark3xodus](https://bitbucket.org/oF2pks/fdroid-classyshark3xodus/src/master/ClassySharkAndroid/app/src/main/res/values/arrays.xml).
 
-*sniproxy*: TrackerControl uses code that has been derived from an early version of [sniproxy](https://github.com/dlundquist/sniproxy) to parse the Server Name Indication (SNI) in TLS headers in accordance with the associated [IETF standard](https://datatracker.ietf.org/doc/html/rfc3546).
+*sniproxy*: Salama Online uses code that has been derived from an early version of [sniproxy](https://github.com/dlundquist/sniproxy) to parse the Server Name Indication (SNI) in TLS headers in accordance with the associated [IETF standard](https://datatracker.ietf.org/doc/html/rfc3546).
 
-*Peter Lowe's Blocklist*: TrackerControl uses the IP blocklist provided by [Peter Lowe](https://pgl.yoyo.org/adservers/iplist.php). Note that this bans anyone from making money from this, see the [license](https://pgl.yoyo.org/license/).
+*Peter Lowe's Blocklist*: Salama Online uses the IP blocklist provided by [Peter Lowe](https://pgl.yoyo.org/adservers/iplist.php). Note that this bans anyone from making money from this, see the [license](https://pgl.yoyo.org/license/).
 
-*DuckDuckGo Tracker Radar*: TrackerControl uses some (but not all) [information](https://github.com/duckduckgo/tracker-radar) that lies at the heart of DuckDuckGo's tracking analysis technologies.
+*DuckDuckGo Tracker Radar*: Salama Online uses some (but not all) [information](https://github.com/duckduckgo/tracker-radar) that lies at the heart of DuckDuckGo's tracking analysis technologies.
 
 ## License
 Except where indicated otherwise, this project is licensed under [GPLv3](https://www.gnu.org/licenses/gpl-3.0.html).
@@ -168,7 +168,7 @@ Except where indicated otherwise, this project is licensed under [GPLv3](https:/
      number = {75},
      pages = {4270},
      author = {Konrad Kollnig and Nigel Shadbolt},
-     title = {TrackerControl: Transparency and Choice around App Tracking},
+     title = {Salama Online: Transparency and Choice around App Tracking},
      journal = {Journal of Open Source Software}
 }
 

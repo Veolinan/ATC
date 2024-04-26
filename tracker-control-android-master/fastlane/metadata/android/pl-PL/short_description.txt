@@ -1,1 +1,1 @@
-TrackerControl pomaga kontrolować zbieranie danych przez aplikacje.
+Salama Online pomaga kontrolować zbieranie danych przez aplikacje.

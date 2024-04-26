@@ -1,1 +1,1 @@
-TrackerControl permite monitorar e controlar a coleta de dados ocultos em apps.
+Salama Online permite monitorar e controlar a coleta de dados ocultos em apps.

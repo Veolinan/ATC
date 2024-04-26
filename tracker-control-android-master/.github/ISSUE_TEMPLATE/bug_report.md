@@ -7,8 +7,8 @@ assignees: ''
 
 ---
 
-**Do you use TrackerControl from Google Play/F-Droid/other?**
-Please tell what version of TrackerControl you use.
+**Do you use Salama Online from Google Play/F-Droid/other?**
+Please tell what version of Salama Online you use.
 
 **Describe the bug**
 A clear and concise description of what the bug is.

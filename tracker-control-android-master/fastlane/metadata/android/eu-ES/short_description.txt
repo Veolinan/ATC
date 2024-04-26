@@ -1,1 +1,1 @@
-TrackerControl-ek app-en ezkutuko informazio bilketa kontrolatzea baimentzen du.
+Salama Online-ek app-en ezkutuko informazio bilketa kontrolatzea baimentzen du.

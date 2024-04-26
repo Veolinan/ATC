@@ -32,7 +32,7 @@ import androidx.preference.PreferenceManager;
 import java.util.Map;
 
 public class ReceiverAutostart extends BroadcastReceiver {
-    private static final String TAG = "TrackerControl.Receiver";
+    private static final String TAG = "Salama Online.Receiver";
 
     @Override
     public void onReceive(final Context context, Intent intent) {

@@ -2,7 +2,7 @@
 <resources>
     <string name="app_description">ট্র্যাকারকন্ট্রোল মোবাইল অ্যাপ সমুহের বিস্তৃত, চলমান এবং লুকিয়ে ব্যবহারকারীদের তথ্য সংগ্রহ নিয়ন্ত্রণ ও নিরীক্ষণ করতে দেয় |</string>
     <string name="app_android">ট্র্যাকারকন্ট্রোল ব্যবহার এর জন্য এন্ড্রোইড সংস্করণ ৫.১ বা তার পরবর্তী প্রওয়াজন </string>
-    <string name="app_privacy"><a href="https://github.com/TrackerControl/tracker-control-android#privacy-notice">গোপনীয়তা নীতি</a> <a href="https://github.com/TrackerControl/tracker-control-android#cookie-policy">Cookie Policy</a></string>
+    <string name="app_privacy"><a href="https://github.com/Salama Online/tracker-control-android#privacy-notice">গোপনীয়তা নীতি</a> <a href="https://github.com/Salama Online/tracker-control-android#cookie-policy">Cookie Policy</a></string>
     <string name="channel_foreground">চলমান পরিষেবাগুলি </string>
     <string name="channel_notify">সাধারণ বিজ্ঞপ্তি</string>
     <string name="menu_search">অ্যাপ এর জন্য খুঁজুন</string>

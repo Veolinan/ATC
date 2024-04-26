@@ -94,7 +94,7 @@ import java.util.Set;
 import java.util.zip.GZIPInputStream;
 
 public class Util {
-    private static final String TAG = "TrackerControl.Util";
+    private static final String TAG = "Salama Online.Util";
 
     // Roam like at home
     private static final List<String> listEU = Arrays.asList(

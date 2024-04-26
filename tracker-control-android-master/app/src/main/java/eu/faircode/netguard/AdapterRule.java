@@ -92,7 +92,7 @@ import java.util.Arrays;
 import java.util.List;
 
 public class AdapterRule extends RecyclerView.Adapter<AdapterRule.ViewHolder> implements Filterable {
-    private static final String TAG = "TrackerControl.Adapter";
+    private static final String TAG = "Salama Online.Adapter";
 
     private View anchor;
     private LayoutInflater inflater;

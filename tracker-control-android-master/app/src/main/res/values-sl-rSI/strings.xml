@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_description">TrackerControl uporabnikom omogoča nadzirati razširjeno in prikrito zbiranje podatkov v programih o uporabnikovem vedenju (\'sledenje\').</string>
-    <string name="app_copyright">Avtorske pravice \u00A9 2019-2022 Konrad Kollnig (Human-Centred Computing, Department of Computer Science, University of Oxford)\n\nTrackerControl je osnovan na NetGuardu, ki ga je razvil Marcel Bokhorst (M66B).</string>
-    <string name="app_android">TrackerControl zahteva Android 5.1 ali novejšega</string>
-    <string name="app_xposed">Xposed povzroča preveč zrušitev, ki lahko vodijo k odstranitvi programa iz Trgovine Play, zato TrackerControl ni podprt, ko je nameščen Xposed.</string>
+    <string name="app_description">Salama Online uporabnikom omogoča nadzirati razširjeno in prikrito zbiranje podatkov v programih o uporabnikovem vedenju (\'sledenje\').</string>
+    <string name="app_copyright">Avtorske pravice \u00A9 2019-2022 Konrad Kollnig (Human-Centred Computing, Department of Computer Science, University of Oxford)\n\nSalama Online je osnovan na NetGuardu, ki ga je razvil Marcel Bokhorst (M66B).</string>
+    <string name="app_android">Salama Online zahteva Android 5.1 ali novejšega</string>
+    <string name="app_xposed">Xposed povzroča preveč zrušitev, ki lahko vodijo k odstranitvi programa iz Trgovine Play, zato Salama Online ni podprt, ko je nameščen Xposed.</string>
     <string name="app_eula">Ta program uporabljate na svojo odgovornost.  Noben program ne zagotavlja 100 % zaščite pred sledenjem.</string>
-    <string name="app_privacy"><a href="https://github.com/TrackerControl/tracker-control-android#privacy-notice">Pravilnik o zasebnosti</a> <a href="https://github.com/TrackerControl/tracker-control-android#cookie-policy">Pravilnik o piškotkih</a></string>
+    <string name="app_privacy"><a href="https://github.com/Salama Online/tracker-control-android#privacy-notice">Pravilnik o zasebnosti</a> <a href="https://github.com/Salama Online/tracker-control-android#cookie-policy">Pravilnik o piškotkih</a></string>
     <string name="channel_foreground">Storitve v izvajanju</string>
     <string name="channel_notify">Splošna obvestila</string>
     <string name="channel_access">Obvestila o dostopu</string>
@@ -95,13 +95,13 @@
     <string name="setting_hosts_download">Prejmi datoteko gostiteljev</string>
     <string name="setting_hosts_update">Posodobi datoteko gostiteljev</string>
     <string name="summary_install">Prikaži obvestilo v vrstici stanja za na novo nameščene programe.</string>
-    <string name="summary_pause">Po premoru iz obvestila samodejno omogoči TrackerControl po izbranem številu minut (vnesite 0 , da onemogočite to možnost).</string>
+    <string name="summary_pause">Po premoru iz obvestila samodejno omogoči Salama Online po izbranem številu minut (vnesite 0 , da onemogočite to možnost).</string>
     <string name="summary_update">Dvakrat dnevno preveri za nove izdaje na GitHubu</string>
     <string name="summary_tethering">Delovanje privezovanja je odvisno od različice Androida.  Privezanega prenosa ni mogoče filtrirati.</string>
     <string name="summary_subnet">Omogoči podomrežno usmerjanje; lahko omogoči klicanje Wi-Fi, lahko pa tudi sproži hrošče v Androidu in poveča porabo energije.</string>
     <string name="summary_lan">Dovoli programom, da se povežejo na krajevne omrežne naslove, kot so 10.0.0.0/8, 172.16.0.0/12 in 192.168.0.0/16.</string>
-    <string name="summary_ip6">Preusmeri promet IP različice 6 v TrackerControl, da se ga lahko izbirno dovoli ali blokira.</string>
-    <string name="summary_call">Onemogoči TrackerControl ob dohodnih ali odhodnih klicih.  To se lahko uporabi, da se zaobide težave pri klicanju IP/Wi-Fi.</string>
+    <string name="summary_ip6">Preusmeri promet IP različice 6 v Salama Online, da se ga lahko izbirno dovoli ali blokira.</string>
+    <string name="summary_call">Onemogoči Salama Online ob dohodnih ali odhodnih klicih.  To se lahko uporabi, da se zaobide težave pri klicanju IP/Wi-Fi.</string>
     <string name="summary_system">Določi pravila za sistemske programe (za napredne uporabnike).</string>
     <string name="summary_log_app">Onemogočite za zmanjšanje porabe energije.  Novi sledilci bodo še vedno blokirani, vendar ne bodo prikazani.</string>
     <string name="summary_track_usage">Sledi številu poslanih in prejetih bajtov za vsak program in naslov.  To lahko povzroči dodatno porabo energije.</string>
@@ -109,30 +109,30 @@
     <string name="summary_rcode">Privzeta vrednost je 3 (NXDOMAIN), kar pomeni \'neobstoječa domena\'.</string>
     <string name="summary_validate">Ime domene, ki se uporablja za preverjanje veljavnosti internetne povezave na vratih 443 (https).</string>
     <string name="summary_socks5_enabled">Posredniškemu strežniku bo poslan samo promet TCP.</string>
-    <string name="summary_watchdog">Občasno preveri, ali se TrackerControl še izvaja (vnesite 0 za onemogočanje te možnosti).  To lahko povzroči dodatno porabo energije.</string>
+    <string name="summary_watchdog">Občasno preveri, ali se Salama Online še izvaja (vnesite 0 za onemogočanje te možnosti).  To lahko povzroči dodatno porabo energije.</string>
     <string name="summary_log_logcat">Onemogoči blokiranje.  Komunikacija (in prepoznani sledilci) se beleži v dnevnik naprave.  Pridobite jo lahko z adb logcat z oznako \'TC-log\'.</string>
     <string name="msg_sure">Ali ste prepričani?</string>
     <string name="msg_started">Preverjanje sledilcev</string>
     <string name="msg_waiting">Čakanje na dogodek</string>
-    <string name="msg_disabled">Uporabite stikalo zgoraj, da omogočite TrackerControl.</string>
-    <string name="msg_revoked">TrackerControl je bil onemogočen verjetno z uporabo drugega programa, osnovanega na VPN-u.</string>
+    <string name="msg_disabled">Uporabite stikalo zgoraj, da omogočite Salama Online.</string>
+    <string name="msg_revoked">Salama Online je bil onemogočen verjetno z uporabo drugega programa, osnovanega na VPN-u.</string>
     <string name="msg_installed">Težave s/z %1$s?</string>
     <string name="msg_installed_description">Dovoli programom, da navežejo stik s podjetji</string>
     <string name="msg_installed_tracker_libraries_found">Vsebuje %d sledilnih knjižnic.</string>
     <string name="msg_installed_n">Je bil nameščen</string>
     <string name="msg_completed">Dejanje je končano.</string>
-    <string name="msg_vpn">TrackerControl za filtriranje internetnega prometa uporablja krajevni VPN.
+    <string name="msg_vpn">Salama Online za filtriranje internetnega prometa uporablja krajevni VPN.
 V ta namen v naslednjem pogovornem oknu dovolite povezavo VPN.
 Vaš internetni promet se ne pošilja na oddaljeni strežnik VPN.</string>
     <string name="msg_autostart">Programa ni bilo mogoče samodejno začeti.  To je verjetno zaradi hrošča v vaši različici Androida.</string>
     <string name="msg_error">Pojavila se je nepričakovana napaka: \'%s\'</string>
     <string name="msg_start_failed">Android je trenutno zavrnil zagon storitve VPN.  To je verjetno zaradi hrošča v vaši različici Androida.</string>
-    <string name="msg_try">Poizkusite TrackerControl</string>
-    <string name="msg_doze">Za dosledne rezultate onemogočate Androidovo optimizacijo baterije za TrackerControl.
-\n\nV naslednjem pogovornem oknu na vrhu izberite \"Vsi programi\", na seznamu se dotaknite TrackerControl in potrdite \"Brez optimizacije\".</string>
-    <string name="msg_datasaving">Za dosledne rezultate onemogočite Androidovo varčevanje s podatki za TrackerControl.
+    <string name="msg_try">Poizkusite Salama Online</string>
+    <string name="msg_doze">Za dosledne rezultate onemogočate Androidovo optimizacijo baterije za Salama Online.
+\n\nV naslednjem pogovornem oknu na vrhu izberite \"Vsi programi\", na seznamu se dotaknite Salama Online in potrdite \"Brez optimizacije\".</string>
+    <string name="msg_datasaving">Za dosledne rezultate onemogočite Androidovo varčevanje s podatki za Salama Online.
 \n\nV naslednjem pogovornem oknu omogočite možnosti \"Podatki v ozadju\" in \"Neomejena poraba podatkov\".</string>
-    <string name="msg_filter">Če boste uporabljali filtriranje, bo Android porabo podatkov in energije dodelil TrackerControlu (Android bo mislil, da podatke in energijo porablja TrackerControl in ne izvirni programi).</string>
+    <string name="msg_filter">Če boste uporabljali filtriranje, bo Android porabo podatkov in energije dodelil Salama Onlineu (Android bo mislil, da podatke in energijo porablja Salama Online in ne izvirni programi).</string>
     <string name="msg_filter4">Android 4 zahteva, da je filtriranje omogočeno.</string>
     <string name="msg_log_disabled">Beleženje prometa je onemogočeno.  Uporabite zgornje stikalo, da ga omogočite.  Beleženje prometa lahko povzroči dodatno porabo energije.</string>
     <string name="msg_clear_rules">To bo ponastavilo pravila in pogoje na privzete vrednosti.</string>
@@ -145,7 +145,7 @@ Vaš internetni promet se ne pošilja na oddaljeni strežnik VPN.</string>
     <string name="msg_update_last">Zadnja posodobitev: %s</string>
     <string name="msg_metered">Omrežje je merjeno.</string>
     <string name="msg_inactive">Ni dejavne internetne povezave.</string>
-    <string name="msg_queue">TrackerControl je zaposlen.</string>
+    <string name="msg_queue">Salama Online je zaposlen.</string>
     <string name="msg_update">Na voljo je posodobitev, dotaknite za prejem.</string>
     <string name="msg_usage">Dostop do omrežja Wi-Fi ali mobilnega interneta lahko dovolite (zeleno) ali zavrnete (rdeče) z dotikom ikone poleg programa.</string>
     <string name="msg_whitelist">Dostop do interneta je privzeto dovoljen (način črnega seznama).  To lahko spremenite v nastavitvah.</string>
@@ -155,8 +155,8 @@ Vaš internetni promet se ne pošilja na oddaljeni strežnik VPN.</string>
     <string name="msg_vpn_cancelled">Povezava VPN je bila preklicana.\nAli ste nastavili drug VPN kot vedno dejavnega?</string>
     <string name="msg_unavailable">Ta značilnost ni na voljo v tej različici Androida.</string>
     <string name="msg_always_on">Drug VPN je nastavljen kot vedno dejaven.</string>
-    <string name="msg_always_on_lockdown">Izklopite \"Blokiraj povezave brez VPN-a\" v Androidovih nastavitvah za VPN, da TrackerControl uporabite v filtrirnem načinu.</string>
-    <string name="msg_private_dns">Izklopite \"Zasebni DNS\" v Androidovih omrežnih nastavitvah, da TrackerControl uporabite v filtrirnem načinu.</string>
+    <string name="msg_always_on_lockdown">Izklopite \"Blokiraj povezave brez VPN-a\" v Androidovih nastavitvah za VPN, da Salama Online uporabite v filtrirnem načinu.</string>
+    <string name="msg_private_dns">Izklopite \"Zasebni DNS\" v Androidovih omrežnih nastavitvah, da Salama Online uporabite v filtrirnem načinu.</string>
     <string name="msg_start_forward">Začni posredovati iz %1$s, vrata %2$d v %3$s:%4$d od%5$s?</string>
     <string name="msg_stop_forward">Ustavi posredovati %1$s, vrata %2$d?</string>
     <string name="msg_log_logcat">Opozorilo: blokiranje je onemogočeno zaradi beleženja ADB.</string>
@@ -258,7 +258,7 @@ Vaš internetni promet se ne pošilja na oddaljeni strežnik VPN.</string>
     <string name="app_info">Upravljanje programa</string>
     <!-- Actions -->
     <string name="block_tracking">Blokiraj sledilce</string>
-    <string name="block_tracking_description">Veliko programov pošilja podatke tretjim osebam, t.i. sledilcem.  TrackerControl omogoča izbirno blokiranje teh omrežnih prenosov.  Toda to uporabljajte po pameti, ker se razvijalci zanašajo na te storitve, še največ pa na oglaševanje.</string>
+    <string name="block_tracking_description">Veliko programov pošilja podatke tretjim osebam, t.i. sledilcem.  Salama Online omogoča izbirno blokiranje teh omrežnih prenosov.  Toda to uporabljajte po pameti, ker se razvijalci zanašajo na te storitve, še največ pa na oglaševanje.</string>
     <string name="personalised_ads">Omeji osebno prilagajanje</string>
     <string name="personalised_ads_description">Android programom nudi omejitev dostopa do Googlovega oglaševalskega ID-ja.  Vendar programi lahko prezrejo to nastavitev in vseeno uporabijo ta ID.  Lahko tudi še naprej beležijo ta ID za potrebe preučevanja glede na Googlove pravilnike.  Morali boste zaupati Googlu in podjetju, ki zbira podatke.</string>
     <string name="data_managment">Upravljaj s podatki</string>
@@ -311,12 +311,12 @@ The reason for my removal request is that I withdraw or have withdrawn my consen
 Please provide your response through secure means by email. I look forward to receiving a response within one month of the receipt of my request.\n
 \n
 Sincerely,\n\n]]></string>
-    <string name="crash_dialog_text">Žal se je TrackerControl sesul.  Ali bi nam hoteli poslati e-pošto s podrobnostmi?</string>
+    <string name="crash_dialog_text">Žal se je Salama Online sesul.  Ali bi nam hoteli poslati e-pošto s podrobnostmi?</string>
     <string name="crash_dialog_comment">Opombe?</string>
     <string name="instructions_monitoring_private_dns">Preklopite stikalo in uporabljajte programe.  Zasebni DNS mora biti omogočen.</string>
     <string name="instructions_monitoring">Preklopite stikalo in uporabljajte programe.</string>
     <string name="device_not_supported_title">Naprava ni podprta</string>
-    <string name="device_not_supported_msg">Operacijski sistem vaše naprave ne dovoli nadzora in filtriranja omrežnih komunikacij.  TrackerControl to zahteva.</string>
+    <string name="device_not_supported_msg">Operacijski sistem vaše naprave ne dovoli nadzora in filtriranja omrežnih komunikacij.  Salama Online to zahteva.</string>
     <string name="launch_app">Zaženi in poišči sledilce</string>
     <string name="countries">Ciljne države</string>
     <string name="countries_explanation">Spoznajte, kam vaš telefon pošilja sledilne podatke.\n\nPodatki so osnovani glede na poizvedbe DNS in podatke o IP-jih, in so lahko netočni.</string>
@@ -340,7 +340,7 @@ Sincerely,\n\n]]></string>
     <string name="no_trackers_found_action">Zaženi</string>
     <string name="no_internet_message">"Ta program nima dostopa do interneta.  Lahko vam še vedno sledi tako, da izmenjuje podatke z drugimi programi."</string>
     <string name="no_internet">Ni dostopa do interneta</string>
-    <string name="bypass_vpn_error">"Ne more blokirati interneta.  Program je izključen iz TrackerControla."</string>
+    <string name="bypass_vpn_error">"Ne more blokirati interneta.  Program je izključen iz Salama Onlinea."</string>
     <string name="back">Nazaj</string>
     <string name="forever_free">Vedno brezplačen</string>
     <string name="your_privacy">Vaša zasebnost</string>
@@ -359,8 +359,8 @@ Sincerely,\n\n]]></string>
     <string name="detected_trackers">Zaznane sledilne knjižnice: %s</string>
     <string name="none">Brez</string>
     <string name="trackers_static">Sledilne knjižnice</string>
-    <string name="trackers_static_explanation">TrackerControl sledenje zazna v kodi (\'knjižnicah\') in omrežnem prometu programov.\n\nSledenje, ki je zaznano v omrežnem prometu, lahko TrackerControl blokira.</string>
-    <string name="trackers_static_explanation_playstore">TrackerControl sledenje zazna v kodi (\'knjižnicah\') in omrežnem prometu programov.</string>
+    <string name="trackers_static_explanation">Salama Online sledenje zazna v kodi (\'knjižnicah\') in omrežnem prometu programov.\n\nSledenje, ki je zaznano v omrežnem prometu, lahko Salama Online blokira.</string>
+    <string name="trackers_static_explanation_playstore">Salama Online sledenje zazna v kodi (\'knjižnicah\') in omrežnem prometu programov.</string>
     <string name="blocked">BLOKIRANO</string>
     <string name="allowed">DOVOLJENO</string>
     <string name="setting_domain_based_blocked">Blokiranje glede na domeno</string>
@@ -368,7 +368,7 @@ Sincerely,\n\n]]></string>
     <string name="untap_unblock">Nasvet: posamezne vnose lahko blokirate tako, da se jih dotaknete.</string>
     <string name="uncertain_entry">Vnosi, ki so označeni z \'*\', so lahko netočni zaradi omejitev Androida.  To običajno pomeni, da isto podjetje uporablja isti naslov IP pod različnimi domenami, lahko pa tudi pomeni, da so za istim naslovom IP različna podjetja (npr. če uporabljajo omrežje za dostavo vsebin).</string>
     <string name="browsers_not_supported">⚠️ Brskalniki niso podprti.</string>
-    <string name="browsers_not_supported_explanation">Videti je, da je to brskalnik.\n\nTrackerControl ne podpira blokiranje sledilcev v brskalnikih.  Namesto tega lahko uporabljate brskalnik z vgrajeno zmožnostjo blokiranja sledenja za boljše blokiranje.\n\nNa primer Mozilla Fennec ali Bromite.</string>
+    <string name="browsers_not_supported_explanation">Videti je, da je to brskalnik.\n\nSalama Online ne podpira blokiranje sledilcev v brskalnikih.  Namesto tega lahko uporabljate brskalnik z vgrajeno zmožnostjo blokiranja sledenja za boljše blokiranje.\n\nNa primer Mozilla Fennec ali Bromite.</string>
     <string name="static_analysis">Zaznaj sledilce v kodi programov</string>
-    <string name="failed_loading_cached_analysis">Nalaganje predpomnjenih rezultatov sledilcev je spodletelo.  Prosimo, sporočite to razvijalcu na hello@trackercontrol.org.</string>
+    <string name="failed_loading_cached_analysis">Nalaganje predpomnjenih rezultatov sledilcev je spodletelo.  Prosimo, sporočite to razvijalcu na hello@Salama Online.org.</string>
 </resources>

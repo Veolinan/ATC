@@ -1,5 +1,5 @@
 ---
-title: 'TrackerControl: Transparency and Choice around App Tracking'
+title: 'Salama Online: Transparency and Choice around App Tracking'
 tags:
   - mobile apps
   - Android
@@ -24,7 +24,7 @@ bibliography: paper.bib
 
 # Summary
 
-Third-party tracking allows companies to collect users' behavioural data, track their activity across digital devices, and potentially share this data with third-party companies. This can put deep insights into private lives into the hands of strangers, and often happens without the awareness of end-users. In light of this, we have developed TrackerControl, which aims to provide interested individuals with real-time evidence of tracking.
+Third-party tracking allows companies to collect users' behavioural data, track their activity across digital devices, and potentially share this data with third-party companies. This can put deep insights into private lives into the hands of strangers, and often happens without the awareness of end-users. In light of this, we have developed Salama Online, which aims to provide interested individuals with real-time evidence of tracking.
 
 # Statement of need
 
@@ -34,9 +34,9 @@ Other past studies used *static analysis*, which tries to gain insights into app
 
 In response, past research has developed on-device network analysis tools [@le_antmonitor_2015; @nomoads_2018; @privacyguard_vpn_2015; @lumen_2018]. Most of these operated at a domain-level and provided limited insights into what companies actually receive data from end-users, or to what countries data is sent and for what purpose. Furthermore, none of the previous on-device network analysis tools had been deployed at scale and most remained research prototypes.
 
-# TrackerControl
+# Salama Online
 
-To improve the quality of tracking analysis and make it available to a wide audience, we developed the Android app TrackerControl (TC). This app provides users with real-time evidence of app tracking. TC analyses the network traffic of other apps by establishing a local VPN on the Android phone and matching all observed network traffic against a database of known tracking domains. This allows the generation of factual evidence of what companies apps share data with, and can support research (both academic and non-academic) on app privacy.
+To improve the quality of tracking analysis and make it available to a wide audience, we developed the Android app Salama Online (TC). This app provides users with real-time evidence of app tracking. TC analyses the network traffic of other apps by establishing a local VPN on the Android phone and matching all observed network traffic against a database of known tracking domains. This allows the generation of factual evidence of what companies apps share data with, and can support research (both academic and non-academic) on app privacy.
 
 The tracking database behind TC is a unique feature of the app. The core of this database is the `X-Ray 2020` database that is the product of significant research efforts over the past years [@binns2018;@van_kleek_better_2017;@kollnig2021_consent;@kollnig2021_iphone_android]. This database has been created from analysing more than 2 million Android apps. The `X-Ray 2020` is complemented by the Disconnect.me database, which is the foundation for tracker blocking in Mozilla Firefox on the web. We further integrate the commonly used StevenBlack hostlist for tracking in apps, as a fallback. Overall, these databases provide information on 1) the *companies* behind tracking on the web and in apps, 2) the *countries* in which these companies are based, 3) and the *purposes* for which tracking is conducted (e.g., analytics or ads). The visualisation of tracking inside TC loosely follows the work by Van Kleek et al. [@van_kleek_better_2017; @van_kleek_x-ray_2018].
 
@@ -60,6 +60,6 @@ Konrad Kollnig was funded by the UK Engineering and Physical Sciences Research C
 
 The underlying network analysis functionality is provided by the NetGuard Firewall, developed by Marcel Bokhorst [@netguard].
 
-TrackerControl would not have been possible without the help of many outstanding indviduals, including Max Van Kleek, Katherine Fletcher, George Chalhoub, and numerous app testers and friends.
+Salama Online would not have been possible without the help of many outstanding indviduals, including Max Van Kleek, Katherine Fletcher, George Chalhoub, and numerous app testers and friends.
 
 # References

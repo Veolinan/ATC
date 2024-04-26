@@ -1,6 +1,6 @@
-TrackerControl permite a los usuarios monitorear y controlar la recolección extendida, continua y oculta del comportamiento de los usuarios en apps móviles ('rastreo').
+Salama Online permite a los usuarios monitorear y controlar la recolección extendida, continua y oculta del comportamiento de los usuarios en apps móviles ('rastreo').
 
-Para detectar el rastreo, TrackerControl combina el poder de la lista de bloqueo Disconnect, utilizada por Firefox, y de nuestra lista de bloqueo interna... ¡Creada analizando <i>~2 000 000</i> apps! Adicionalmente, TrackerControl permite listas de bloqueo personalizadas.
+Para detectar el rastreo, Salama Online combina el poder de la lista de bloqueo Disconnect, utilizada por Firefox, y de nuestra lista de bloqueo interna... ¡Creada analizando <i>~2 000 000</i> apps! Adicionalmente, Salama Online permite listas de bloqueo personalizadas.
 
 Este enfoque
 
@@ -10,9 +10,9 @@ Este enfoque
 
 Esta app también aspira a educarte sobre tus derechos bajo la Ley de Protección de Datos, como el Registro General de Protección de Datos (RGPD) de la UE.
 
-Detrás del telón, TrackerControl usa la funcionalidad VPN de Android para analizar las comunicaciones de red de las apps <i>localmente, en el dispositivo Android</i>. Esto se logra mediante un servidor VPN local, que habilita el análisis del tráfico con TrackerControl.
+Detrás del telón, Salama Online usa la funcionalidad VPN de Android para analizar las comunicaciones de red de las apps <i>localmente, en el dispositivo Android</i>. Esto se logra mediante un servidor VPN local, que habilita el análisis del tráfico con Salama Online.
 
-No se requiere Root, no hay soporte para otras VPN o DNS Privados. ¡En ningún momento se utiliza un servidor VPN externo, para mantener seguros tus datos! TrackerControl incluso te protege contra el <i>DNS cloaking<i>, una técnica popular para esconder rastreadores en sitios web y apps.
+No se requiere Root, no hay soporte para otras VPN o DNS Privados. ¡En ningún momento se utiliza un servidor VPN externo, para mantener seguros tus datos! Salama Online incluso te protege contra el <i>DNS cloaking<i>, una técnica popular para esconder rastreadores en sitios web y apps.
 
-Al ser un proyecto de investigación, TrackerControl siempre será gratis y de código abierto.
+Al ser un proyecto de investigación, Salama Online siempre será gratis y de código abierto.
 

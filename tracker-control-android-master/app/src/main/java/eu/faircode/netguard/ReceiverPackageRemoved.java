@@ -30,7 +30,7 @@ import androidx.core.app.NotificationManagerCompat;
 import net.kollnig.missioncontrol.data.TrackerBlocklist;
 
 public class ReceiverPackageRemoved extends BroadcastReceiver {
-    private static final String TAG = "TrackerControl.Receiver";
+    private static final String TAG = "Salama Online.Receiver";
 
     @Override
     public void onReceive(final Context context, Intent intent) {

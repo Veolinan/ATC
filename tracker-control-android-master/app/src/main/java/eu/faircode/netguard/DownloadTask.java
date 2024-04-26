@@ -46,7 +46,7 @@ import java.net.URLConnection;
 import java.util.zip.GZIPInputStream;
 
 public class DownloadTask extends AsyncTask<Object, Integer, Object> {
-    private static final String TAG = "TrackerControl.Download";
+    private static final String TAG = "Salama Online.Download";
 
     private Context context;
     private URL url;
@@ -173,7 +173,7 @@ public class DownloadTask extends AsyncTask<Object, Integer, Object> {
                 .setContentText(context.getString(R.string.msg_downloading, url.toString()))
                 .setContentIntent(pi)
                 .setProgress(100, progress, false)
-                .setColor(context.getResources().getColor(R.color.colorTrackerControl))
+                .setColor(context.getResources().getColor(R.color.colorSalama Online))
                 .setOngoing(true)
                 .setAutoCancel(false);
 

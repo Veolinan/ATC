@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_description">TrackerControl permite aos usuarios monitorizar e controlar a recolección de datos xeneralizada, continua e oculta nas apps do móbil sobor do comportamento do usuario (\"rastreo\" ou \"tracking\").</string>
-    <string name="app_android">TrackerControl precisa de Android 5.1 ou superior</string>
-    <string name="app_xposed">Xposed causa demasiados erros, o cal implicaría a eliminación de TrackerControl da tenda de Google Play, polo tanto non hai soporte mentres Xposed estea instalado</string>
+    <string name="app_description">Salama Online permite aos usuarios monitorizar e controlar a recolección de datos xeneralizada, continua e oculta nas apps do móbil sobor do comportamento do usuario (\"rastreo\" ou \"tracking\").</string>
+    <string name="app_android">Salama Online precisa de Android 5.1 ou superior</string>
+    <string name="app_xposed">Xposed causa demasiados erros, o cal implicaría a eliminación de Salama Online da tenda de Google Play, polo tanto non hai soporte mentres Xposed estea instalado</string>
     <string name="app_eula">O uso dista aplicación é baixo a túa responsabilidade. Ningunha aplicación ofrece un 100% de protección contra o rastrexo de datos.</string>
     <string name="channel_foreground">Servizos en uso</string>
     <string name="channel_notify">Notificacións xerais</string>
@@ -55,21 +55,21 @@
     <string name="summary_rcode">O valor por defecto é 3 (NXDOMAIN), que quere dicir \"dominio non existente\".</string>
     <string name="summary_validate">Nome de dominio usado para validar a conexión a internet no porto 443 (https).</string>
     <string name="summary_socks5_enabled">Só irá o tráfico TCP ao servidor proxy</string>
-    <string name="summary_watchdog">Comprobación periódica de que TrackerControl está activo (poña cero para deshabilitar). Isto pode causar consumo extra de batería.</string>
+    <string name="summary_watchdog">Comprobación periódica de que Salama Online está activo (poña cero para deshabilitar). Isto pode causar consumo extra de batería.</string>
     <string name="summary_log_logcat">Deshabilitar bloqueo. As comunicacións (e rastrexadores identificados) rexístranse nos logs do dispositivo. Recupéranse con adb logcat coa etiqueta \'TC-Log\'.</string>
     <string name="msg_sure">¿Está seguro?</string>
     <string name="msg_started">Comprobando rastrexadores</string>
     <string name="msg_waiting">Agardando por evento</string>
-    <string name="msg_disabled">Use o botón de enriba para activar TrackerControl.</string>
-    <string name="msg_revoked">TrackerControl foi deactivado, é moi posible que por usar outra aplicación con VPN</string>
+    <string name="msg_disabled">Use o botón de enriba para activar Salama Online.</string>
+    <string name="msg_revoked">Salama Online foi deactivado, é moi posible que por usar outra aplicación con VPN</string>
     <string name="msg_installed">¿Problemas con %1$s?</string>
     <string name="msg_installed_description">Permitir á aplicación contactar con empresas</string>
     <string name="msg_installed_n">Foi instalado</string>
     <string name="msg_completed">Acción completada</string>
-    <string name="msg_vpn">TrackerControl usa unha VPN local para filtar o tráfico de internet.
+    <string name="msg_vpn">Salama Online usa unha VPN local para filtar o tráfico de internet.
 Por isto, por favor permita a conexión VPN no seguinte diálogo.
 O seu tráfico de internet non será enviado a ningún servidor VPN remoto.</string>
-    <string name="msg_autostart">TrackerControl non puido arrancar de xeito automático. É moi posible que sexa un bug na súa versión de Android.</string>
+    <string name="msg_autostart">Salama Online non puido arrancar de xeito automático. É moi posible que sexa un bug na súa versión de Android.</string>
     <!-- App Overview -->
     <!-- App Details -->
     <!-- Actions -->

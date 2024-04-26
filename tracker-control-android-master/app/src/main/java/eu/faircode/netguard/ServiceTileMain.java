@@ -38,7 +38,7 @@ import net.kollnig.missioncontrol.R;
 
 @TargetApi(Build.VERSION_CODES.N)
 public class ServiceTileMain extends TileService implements SharedPreferences.OnSharedPreferenceChangeListener {
-    private static final String TAG = "TrackerControl.TileMain";
+    private static final String TAG = "Salama Online.TileMain";
 
     public void onStartListening() {
         Log.i(TAG, "Start listening");

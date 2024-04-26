@@ -44,7 +44,7 @@ import org.acra.config.MailSenderConfiguration;
 import org.acra.config.MailSenderConfigurationBuilder;
 
 public class ApplicationEx extends Application {
-    private static final String TAG = "TrackerControl.App";
+    private static final String TAG = "Salama Online.App";
 
     @Override
     protected void attachBaseContext (Context base) {
@@ -66,7 +66,7 @@ public class ApplicationEx extends Application {
                 .withReportFormat(KEY_VALUE_LIST)
                 .withPluginConfigurations(
                         new MailSenderConfigurationBuilder()
-                            .withMailTo("crash@trackercontrol.org")
+                            .withMailTo("crash@Salama Online.org")
                             .withBody(getString(R.string.crash_body))
                             .withReportAsFile(true)
                             .withReportFileName("tracker-control-crash.json")

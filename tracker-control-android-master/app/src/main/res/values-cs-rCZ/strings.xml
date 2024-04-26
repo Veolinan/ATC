@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_description">TrackerControl umožňuje uživatelům sledovat a kontrolovat rozsáhlý, průběžný a skrytý sběr dat o chování uživatelů v mobilních aplikacích (\"sledování\").</string>
-    <string name="app_copyright">Copyright \u00A9 2019–2022 Konrad Kollnig (Human-Centred Computing, Department of Computer Science, University of Oxford)\n\nTrackerControl je založen na systému NetGuard, který vyvinul Marcel Bokhorst (M66B).</string>
-    <string name="app_android">TrackerControl vyžaduje Android 5.1 nebo novější</string>
-    <string name="app_xposed">Xposed způsobuje příliš mnoho pádů, což by mohlo vést k odstranění aplikace TrackerControl z Obchodu Google Play. TrackerControl proto není podporován, pokud je nainstalován Xposed</string>
+    <string name="app_description">Salama Online umožňuje uživatelům sledovat a kontrolovat rozsáhlý, průběžný a skrytý sběr dat o chování uživatelů v mobilních aplikacích (\"sledování\").</string>
+    <string name="app_copyright">Copyright \u00A9 2019–2022 Konrad Kollnig (Human-Centred Computing, Department of Computer Science, University of Oxford)\n\nSalama Online je založen na systému NetGuard, který vyvinul Marcel Bokhorst (M66B).</string>
+    <string name="app_android">Salama Online vyžaduje Android 5.1 nebo novější</string>
+    <string name="app_xposed">Xposed způsobuje příliš mnoho pádů, což by mohlo vést k odstranění aplikace Salama Online z Obchodu Google Play. Salama Online proto není podporován, pokud je nainstalován Xposed</string>
     <string name="app_eula">Tuto aplikaci používáte na vlastní nebezpečí. Žádná aplikace nemůže nabídnout 100% ochranu před sledováním.</string>
-    <string name="app_privacy"><a href="https://github.com/TrackerControl/tracker-control-android#privacy-notice">Zásady ochrany osobních údajů</a> <a href="https://github.com/TrackerControl/tracker-control-android#cookie-policy">Zásady používání cookie</a></string>
+    <string name="app_privacy"><a href="https://github.com/Salama Online/tracker-control-android#privacy-notice">Zásady ochrany osobních údajů</a> <a href="https://github.com/Salama Online/tracker-control-android#cookie-policy">Zásady používání cookie</a></string>
     <string name="channel_foreground">Spuštěné služby</string>
     <string name="channel_notify">Obecná oznámení</string>
     <string name="channel_access">Přístup k oznámením</string>
@@ -95,13 +95,13 @@
     <string name="setting_hosts_download">Stáhnout soubor hosts</string>
     <string name="setting_hosts_update">Aktualizovat soubor hosts</string>
     <string name="summary_install">Zobrazit oznámení ve stavovém řádku pro nově nainstalované aplikace</string>
-    <string name="summary_pause">Po pozastavení z oznámení znovu automaticky povolí TrackerControl po zvoleném počtu minut. (zadáním 0 tuto možnost zakážete).</string>
+    <string name="summary_pause">Po pozastavení z oznámení znovu automaticky povolí Salama Online po zvoleném počtu minut. (zadáním 0 tuto možnost zakážete).</string>
     <string name="summary_update">Kontrolovat nové verze v GitHub dvakrát denně</string>
     <string name="summary_tethering">V závislosti na verzi systému Android, sdílení internetu (tethering) může nebo nemusí fungovat. Sdílenou síťovou komunikaci nelze filtrovat.</string>
     <string name="summary_subnet">Povolit směrování podsítě; může umožnit volání skrze Wi-Fi, ale také může vyvolat chyby v systému Android a zvýšit využití baterie</string>
     <string name="summary_lan">Povolit aplikacím připojení k adresám místní sítě, např. 10.0.0.0/8, 172.16.0.0/12 a 192.168.0.0/16</string>
-    <string name="summary_ip6">Přesměrovat IPv6 přenosy do TrackerControl, aby je bylo možné selektivně zakázat nebo povolit</string>
-    <string name="summary_call">Zakázat TrackerControl při příchozím nebo odchozím telefonním hovoru. Může vyřešit problémy s IP/Wi-Fi voláním.</string>
+    <string name="summary_ip6">Přesměrovat IPv6 přenosy do Salama Online, aby je bylo možné selektivně zakázat nebo povolit</string>
+    <string name="summary_call">Zakázat Salama Online při příchozím nebo odchozím telefonním hovoru. Může vyřešit problémy s IP/Wi-Fi voláním.</string>
     <string name="summary_system">Definovat pravidla pro systémové aplikace (pro odborníky)</string>
     <string name="summary_log_app">Zakázáním snížíte spotřebu baterie. Nové trackery budou stále blokovány, nebudou se zobrazovat.</string>
     <string name="summary_track_usage">Sledovat počet odeslaných a přijatých bytů pro každou aplikaci a adresu. Může mít vliv na spotřebu baterie.</string>
@@ -109,30 +109,30 @@
     <string name="summary_rcode">Výchozí hodnota je 3 (NXDOMAIN), což znamená \'neexistující doména\'.</string>
     <string name="summary_validate">Název domény použitý pro validaci internetového spojení na portu 443 (https).</string>
     <string name="summary_socks5_enabled">Pouze TCP přenosy budou přenášeny skrze proxy server</string>
-    <string name="summary_watchdog">Pravidelně kontrolovat, zda TrackerControl stále běží (zadejte nulu pro vypnutí). Toto nastavení může mít vliv na spotřebu.</string>
+    <string name="summary_watchdog">Pravidelně kontrolovat, zda Salama Online stále běží (zadejte nulu pro vypnutí). Toto nastavení může mít vliv na spotřebu.</string>
     <string name="summary_log_logcat">Zakáže blokování. Komunikace (a rozpoznané trackery) jsou zaznamenány do logu zařízení. Získej záznam přes adb logcat s tagem \'TC-Log\'.</string>
     <string name="msg_sure">Jste si jistí?</string>
     <string name="msg_started">Kontrola trackerů</string>
     <string name="msg_waiting">Čekání na událost</string>
-    <string name="msg_disabled">Pomocí výše uvedeného přepínače povolte TrackerControl.</string>
-    <string name="msg_revoked">TrackerControl byl deaktivován, pravděpodobně jinou aplikací používající VPN rozhraní</string>
+    <string name="msg_disabled">Pomocí výše uvedeného přepínače povolte Salama Online.</string>
+    <string name="msg_revoked">Salama Online byl deaktivován, pravděpodobně jinou aplikací používající VPN rozhraní</string>
     <string name="msg_installed">Problémy s %1$s?</string>
     <string name="msg_installed_description">Umožnit aplikaci kontaktovat společnosti</string>
     <string name="msg_installed_tracker_libraries_found">Počet obsažených knihoven sledování: %d</string>
     <string name="msg_installed_n">Instalace dokončena</string>
     <string name="msg_completed">Akce dokončena</string>
-    <string name="msg_vpn">TrackerControl používá lokální VPN pro filtrování internetového provozu.
+    <string name="msg_vpn">Salama Online používá lokální VPN pro filtrování internetového provozu.
 Z tohoto důvodu prosím povolte VPN připojení v následujícím dialogu.
 Váš internetový provoz není odesílán žádnému vzdálenému VPN serveru.</string>
-    <string name="msg_autostart">TrackerControl nemůže být spuštěn automaticky při startu zařízení kvůli chybě ve Vaší verzi Androidu.</string>
+    <string name="msg_autostart">Salama Online nemůže být spuštěn automaticky při startu zařízení kvůli chybě ve Vaší verzi Androidu.</string>
     <string name="msg_error">Došlo k neočekávané chybě: \'%s\'</string>
     <string name="msg_start_failed">Android odmítl spustit službu VPN. Může to být způsobeno chybou ve vaší verzi Androidu.</string>
-    <string name="msg_try">Vyzkoušejte TrackerControl</string>
-    <string name="msg_doze">Pro optimální výsledky by pro TrackerControl měla být vypnuta optimalizace spotřeby baterie.
-\n\nV následujícím dialogu nahoře se přepněte na \"Všechny aplikace\", v seznamu vyberte TrackerControl a označte a potvrďte volbu \"Neoptimalizovat\".</string>
-    <string name="msg_datasaving">Pro optimální výsledky by pro TrackerControl měly být vypnuty funkce úspory dat systému Android
+    <string name="msg_try">Vyzkoušejte Salama Online</string>
+    <string name="msg_doze">Pro optimální výsledky by pro Salama Online měla být vypnuta optimalizace spotřeby baterie.
+\n\nV následujícím dialogu nahoře se přepněte na \"Všechny aplikace\", v seznamu vyberte Salama Online a označte a potvrďte volbu \"Neoptimalizovat\".</string>
+    <string name="msg_datasaving">Pro optimální výsledky by pro Salama Online měly být vypnuty funkce úspory dat systému Android
 \n\nV následujícím dialogu povolte možnosti \"Data na pozadí\" a \"Neomezené využití dat\"</string>
-    <string name="msg_filter">Použití filtrování způsobí, že systém Android přiřadí využití dat a baterie aplikaci TrackerControl, namísto původním aplikacím</string>
+    <string name="msg_filter">Použití filtrování způsobí, že systém Android přiřadí využití dat a baterie aplikaci Salama Online, namísto původním aplikacím</string>
     <string name="msg_filter4">Android 4 vyžaduje zapnuté filtrování</string>
     <string name="msg_log_disabled">Záznam síťových přenosů do protokolu je vypnutý, použijte přepínač výše pro jeho zapnutí. Může mít vliv na spotřebu baterie.</string>
     <string name="msg_clear_rules">Resetuje pravidla a podmínky do výchozího nastavení</string>
@@ -145,7 +145,7 @@ Váš internetový provoz není odesílán žádnému vzdálenému VPN serveru.<
     <string name="msg_update_last">Poslední aktualizace: %s</string>
     <string name="msg_metered">Síť je účtovaná</string>
     <string name="msg_inactive">Žádné aktivní připojení k Internetu</string>
-    <string name="msg_queue">TrackerControl je zaneprázdněn</string>
+    <string name="msg_queue">Salama Online je zaneprázdněn</string>
     <string name="msg_update">Aktualizace k dispozici, stiskněte pro stažení</string>
     <string name="msg_usage">Můžete povolit (zelená) nebo zakázat (červená) přístup k internetu pro Wi-Fi či mobilní připojení stisknutím ikon vedle aplikace</string>
     <string name="msg_whitelist">Přístup k Internetu je ve výchozím stavu povolen (režim seznamu zakázaných), může být změněno v nastavení</string>
@@ -155,8 +155,8 @@ Váš internetový provoz není odesílán žádnému vzdálenému VPN serveru.<
     <string name="msg_vpn_cancelled">VPN spojení ukončeno\nNenastavili jste jinou VPN jako trvalou síť VPN?</string>
     <string name="msg_unavailable">Tato funkce není na této verzi Androidu k dispozici</string>
     <string name="msg_always_on">Jiná VPN je nastavena jako Trvalá síť VPN</string>
-    <string name="msg_always_on_lockdown">Vypněte \"Blokovat připojení bez VPN\" v Android VPN nastavení pro použití TrackerControl filtrovacího režimu</string>
-    <string name="msg_private_dns">Vypněte \"Soukromé DNS\" v nastavení sítě androidu pro použití TrackerControl v režimu filtrování</string>
+    <string name="msg_always_on_lockdown">Vypněte \"Blokovat připojení bez VPN\" v Android VPN nastavení pro použití Salama Online filtrovacího režimu</string>
+    <string name="msg_private_dns">Vypněte \"Soukromé DNS\" v nastavení sítě androidu pro použití Salama Online v režimu filtrování</string>
     <string name="msg_start_forward">Začít přesměrovávat z %1$s port %2$d na %3$s:%4$d z \'%5$s\'?</string>
     <string name="msg_stop_forward">Přestat přesměrovávat %1$s port %2$d?</string>
     <string name="msg_log_logcat">Varování: Blokování zakázáno z důvodu ADB záznamů.</string>
@@ -258,7 +258,7 @@ Váš internetový provoz není odesílán žádnému vzdálenému VPN serveru.<
     <string name="app_info">Spravovat aplikace</string>
     <!-- Actions -->
     <string name="block_tracking">Blokovat trackery</string>
-    <string name="block_tracking_description">Mnoho aplikací odesílá data třetím stranám, tzv. trackery. TrackerControl umožňuje tyto síťové přenosy selektivně blokovat. Využívejte je s rozvahou, protože vývojáři aplikací na tyto služby spoléhají, zejména kvůli reklamě.</string>
+    <string name="block_tracking_description">Mnoho aplikací odesílá data třetím stranám, tzv. trackery. Salama Online umožňuje tyto síťové přenosy selektivně blokovat. Využívejte je s rozvahou, protože vývojáři aplikací na tyto služby spoléhají, zejména kvůli reklamě.</string>
     <string name="personalised_ads">Omezit přizpůsobení</string>
     <string name="personalised_ads_description">Systém Android nabízí omezení přístupu aplikací k reklamnímu Google ID vašeho zařízení. Aplikace však můžou toto nastavení ignorovat, a přesto toto ID používat. V souladu se zásadami společnosti Google můžou toto ID i nadále shromažďovat pro analytické účely. Musíte důvěřovat společnosti Google a společnosti, která údaje shromažďuje.</string>
     <string name="data_managment">Spravovat data</string>
@@ -273,10 +273,10 @@ Váš internetový provoz není odesílán žádnému vzdálenému VPN serveru.<
     <string name="request_deletion">Žádost o odstranění</string>
     <string name="contact_developer">Vývojář</string>
     <string name="contact_playstore">Google</string>
-    <string name="contact_officials">EU Officials</string>
+    <string name="contact_officials">ODPC Officials</string>
     <string name="google_dpo_mail">data-protection-office@google.com</string>
-    <string name="dpas_overview_url">https://edpb.europa.eu/about-edpb/board/members</string>
-    <string name="subject_request_data">GDPR Subject Access Request</string>
+    <string name="dpas_overview_url">https://www.odpc.go.ke/</string>
+    <string name="subject_request_data">Data Protection Act & GDPR Subject Access Request</string>
     <string name="body_request_data"><![CDATA[Komu:\n
 \n
 \n
@@ -311,13 +311,13 @@ Důvodem mé žádosti o odstranění je odvolání nebo odvolání mého souhla
 Svou odpověď prosím zašlete zabezpečeným způsobem e-mailem. Těším se na odpověď do jednoho měsíce od obdržení mé žádosti.\n
 \n
 S pozdravem,\n\n]]></string>
-    <string name="crash_dialog_text">Omlouváme se. TrackerControl přestal právě fungoval. Chcete nám poslat e-mail s podrobnostmi?</string>
+    <string name="crash_dialog_text">Omlouváme se. Salama Online přestal právě fungoval. Chcete nám poslat e-mail s podrobnostmi?</string>
     <string name="crash_dialog_comment">Nějaké komentáře?</string>
     <string name="instructions_monitoring_private_dns">Přepni switch a interaguj s aplikacemi.
 Privátní DNS musí být vypnutá.</string>
     <string name="instructions_monitoring">Přepni switch a interaguj s aplikacemi.</string>
     <string name="device_not_supported_title">Toto zařízení není podporováno</string>
-    <string name="device_not_supported_msg">Operační systém Vašeho zařízení neumožňuje monitorování a filtrování síťových komunikací. To je vyžadováno pro TrackerControl.</string>
+    <string name="device_not_supported_msg">Operační systém Vašeho zařízení neumožňuje monitorování a filtrování síťových komunikací. To je vyžadováno pro Salama Online.</string>
     <string name="launch_app">Spustit &amp; Najít trackery</string>
     <string name="countries">Cílové země</string>
     <string name="countries_explanation">Zjisti kam jsou tracking data posílána. \n\nInformace jsou založeny na DNS vyhledáváních a IP informacích a můžou být nepřesné.</string>
@@ -341,7 +341,7 @@ Privátní DNS musí být vypnutá.</string>
     <string name="no_trackers_found_action">Spustit</string>
     <string name="no_internet_message">"Bez přístupu k síti. Může jen trackovat sdílením dat s jinými aplikacemi."</string>
     <string name="no_internet">Není připojení k Internetu</string>
-    <string name="bypass_vpn_error">"Nelze blokovat internet. Aplikace je vyloučena z TrackerControl."</string>
+    <string name="bypass_vpn_error">"Nelze blokovat internet. Aplikace je vyloučena z Salama Online."</string>
     <string name="back">Zpět</string>
     <string name="forever_free">Navždy zdarma</string>
     <string name="your_privacy">Vaše soukromí</string>
@@ -360,8 +360,8 @@ Privátní DNS musí být vypnutá.</string>
     <string name="detected_trackers">Detekovány knihovny trackerů: %s</string>
     <string name="none">Nic</string>
     <string name="trackers_static">Knihovny trackerů</string>
-    <string name="trackers_static_explanation">TrackerControl detekuje tracking v kódu (\'libraries\') a síťovém provozu aplikací.\n\nTracking, které je detekováno v síti může být zablokováno s TrackerControl.</string>
-    <string name="trackers_static_explanation_playstore">TrackerControl detekuje tracking v kódu (\'libraries\') a síťovém provozu aplikací.</string>
+    <string name="trackers_static_explanation">Salama Online detekuje tracking v kódu (\'libraries\') a síťovém provozu aplikací.\n\nTracking, které je detekováno v síti může být zablokováno s Salama Online.</string>
+    <string name="trackers_static_explanation_playstore">Salama Online detekuje tracking v kódu (\'libraries\') a síťovém provozu aplikací.</string>
     <string name="blocked">BLOKOVÁNO</string>
     <string name="allowed">POVOLENO</string>
     <string name="setting_domain_based_blocked">Blokování na základě domény</string>
@@ -371,5 +371,5 @@ Privátní DNS musí být vypnutá.</string>
     <string name="browsers_not_supported">Prohlížeče nejsou podporovány ⚠️</string>
     <string name="browsers_not_supported_explanation">Toto je zřejmě prohlížeč. \n\nBlokování trackerů v prohlížečích není podporováno. Používej prohlížeč s integrovanou anti-tracking funkcí pro lepší výsledky. \n\nNapříklad: Mozilla Fennec, Bromite</string>
     <string name="static_analysis">Detekovat trackery v kódu aplikace</string>
-    <string name="failed_loading_cached_analysis">Načítání výsledků sledování z mezipaměti se nezdařilo. Nahlaste to prosím vývojáři na hello@trackercontrol.org</string>
+    <string name="failed_loading_cached_analysis">Načítání výsledků sledování z mezipaměti se nezdařilo. Nahlaste to prosím vývojáři na hello@Salama Online.org</string>
 </resources>

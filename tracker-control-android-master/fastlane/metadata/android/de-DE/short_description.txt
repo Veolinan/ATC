@@ -1,1 +1,1 @@
-TrackerControl erlaubt Kontrolle über App-Tracking.
+Salama Online erlaubt Kontrolle über App-Tracking.

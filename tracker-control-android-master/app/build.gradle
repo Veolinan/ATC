@@ -63,14 +63,14 @@ android {
         }
         github {
             buildConfigField "String", "HOSTS_FILE_URI", "\"https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts\""
-            buildConfigField "String", "GITHUB_LATEST_API", "\"https://api.github.com/repos/TrackerControl/tracker-control-android/releases\""
+            buildConfigField "String", "GITHUB_LATEST_API", "\"https://api.github.com/repos/Salama Online/tracker-control-android/releases\""
 
         }
     }
 
     applicationVariants.configureEach { variant ->
         variant.outputs.configureEach { output ->
-            outputFileName = "TrackerControl-${variant.name}-latest.apk"
+            outputFileName = "Salama Online-${variant.name}-latest.apk"
         }
     }
 

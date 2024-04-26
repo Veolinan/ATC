@@ -91,7 +91,7 @@ import javax.xml.parsers.ParserConfigurationException;
 import javax.xml.parsers.SAXParserFactory;
 
 public class ActivitySettings extends AppCompatActivity implements SharedPreferences.OnSharedPreferenceChangeListener {
-    private static final String TAG = "TrackerControl.Settings";
+    private static final String TAG = "Salama Online.Settings";
 
     private boolean running = false;
 
@@ -757,7 +757,7 @@ public class ActivitySettings extends AppCompatActivity implements SharedPrefere
         intent = new Intent(Intent.ACTION_CREATE_DOCUMENT);
         intent.addCategory(Intent.CATEGORY_OPENABLE);
         intent.setType("*/*"); // text/xml
-        intent.putExtra(Intent.EXTRA_TITLE, "trackercontrol_" + new SimpleDateFormat("yyyyMMdd").format(new Date().getTime()) + ".xml");
+        intent.putExtra(Intent.EXTRA_TITLE, "Salama Online_" + new SimpleDateFormat("yyyyMMdd").format(new Date().getTime()) + ".xml");
         return intent;
     }
 
@@ -791,7 +791,7 @@ public class ActivitySettings extends AppCompatActivity implements SharedPrefere
                 try {
                     Uri target = data.getData();
                     if (data.hasExtra("org.openintents.extra.DIR_PATH"))
-                        target = Uri.parse(target + "/trackercontrol_" + new SimpleDateFormat("yyyyMMdd").format(new Date().getTime()) + ".xml");
+                        target = Uri.parse(target + "/Salama Online_" + new SimpleDateFormat("yyyyMMdd").format(new Date().getTime()) + ".xml");
                     Log.i(TAG, "Writing URI=" + target);
                     out = getContentResolver().openOutputStream(target);
                     xmlExport(out);
@@ -935,7 +935,7 @@ public class ActivitySettings extends AppCompatActivity implements SharedPrefere
         serializer.setOutput(out, "UTF-8");
         serializer.startDocument(null, true);
         serializer.setFeature("http://xmlpull.org/v1/doc/features.html#indent-output", true);
-        serializer.startTag(null, "trackercontrol");
+        serializer.startTag(null, "Salama Online");
 
         serializer.startTag(null, "application");
         xmlExport(PreferenceManager.getDefaultSharedPreferences(this), serializer);
@@ -981,7 +981,7 @@ public class ActivitySettings extends AppCompatActivity implements SharedPrefere
         xmlExport(getSharedPreferences(PREF_BLOCKLIST, Context.MODE_PRIVATE), serializer);
         serializer.endTag(null, "blocklist");
 
-        serializer.endTag(null, "trackercontrol");
+        serializer.endTag(null, "Salama Online");
         serializer.endDocument();
         serializer.flush();
     }
@@ -1148,7 +1148,7 @@ public class ActivitySettings extends AppCompatActivity implements SharedPrefere
         @Override
         public void startElement(String uri, String localName, String qName, Attributes attributes) {
             if (qName.equals("netguard")
-                    || qName.equals("trackercontrol"))
+                    || qName.equals("Salama Online"))
                 ; // Ignore
 
             else if (qName.equals("application"))

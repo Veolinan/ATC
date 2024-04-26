@@ -59,7 +59,7 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 
 public class ActivityLog extends AppCompatActivity implements SharedPreferences.OnSharedPreferenceChangeListener {
-    private static final String TAG = "TrackerControl.Log";
+    private static final String TAG = "Salama Online.Log";
 
     private boolean running = false;
     private ListView lvLog;

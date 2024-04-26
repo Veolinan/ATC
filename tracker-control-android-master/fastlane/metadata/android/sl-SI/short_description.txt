@@ -1,1 +1,1 @@
-TrackerControl omogoča nadzor nad skritim zbiranjem podatkov v programih.
+Salama Online omogoča nadzor nad skritim zbiranjem podatkov v programih.

@@ -33,7 +33,7 @@
 #include <android/log.h>
 #include <sys/system_properties.h>
 
-#define TAG "TrackerControl.JNI"
+#define TAG "Salama Online.JNI"
 
 // #define PROFILE_JNI 5
 // #define PROFILE_MEMORY

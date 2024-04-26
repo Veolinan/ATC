@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_description">TrackerControl ermöglicht es Benutzern, die weit verbreitete, laufende, versteckte Datenerfassung in mobilen Apps über das Benutzerverhalten („Tracking“) zu überwachen und zu steuern.</string>
-    <string name="app_copyright">Copyright \u00A9 2019–2022 Konrad Kollnig (Human-Centred Computing, Department of Computer Science, Universität Oxford)\n\nTrackerControl basiert auf NetGuard, entwickelt von Marcel Bokhorst (M66B).</string>
-    <string name="app_android">TrackerControl erfordert Android 5.1 oder höher</string>
-    <string name="app_xposed">Xposed verursacht sehr viele Abstürze, was dazu führen kann, dass TrackerControl aus dem Google Play Store entfernt werden könnte, deshalb wird TrackerControl nicht unterstützt, solange Xposed installiert ist</string>
+    <string name="app_description">Salama Online ermöglicht es Benutzern, die weit verbreitete, laufende, versteckte Datenerfassung in mobilen Apps über das Benutzerverhalten („Tracking“) zu überwachen und zu steuern.</string>
+    <string name="app_copyright">Copyright \u00A9 2019–2022 Konrad Kollnig (Human-Centred Computing, Department of Computer Science, Universität Oxford)\n\nSalama Online basiert auf NetGuard, entwickelt von Marcel Bokhorst (M66B).</string>
+    <string name="app_android">Salama Online erfordert Android 5.1 oder höher</string>
+    <string name="app_xposed">Xposed verursacht sehr viele Abstürze, was dazu führen kann, dass Salama Online aus dem Google Play Store entfernt werden könnte, deshalb wird Salama Online nicht unterstützt, solange Xposed installiert ist</string>
     <string name="app_eula">Die Nutzung dieser App erfolgt auf eigenes Risiko. Keine App kann vollständigen Schutz vor Tracking garantieren.</string>
-    <string name="app_privacy"><a href="https://github.com/TrackerControl/tracker-control-android#privacy-notice">Datenschutzerklärung</a> <a href="https://github.com/TrackerControl/tracker-control-android#cookie-policy">Cookie-Richtlinien</a></string>
+    <string name="app_privacy"><a href="https://github.com/Salama Online/tracker-control-android#privacy-notice">Datenschutzerklärung</a> <a href="https://github.com/Salama Online/tracker-control-android#cookie-policy">Cookie-Richtlinien</a></string>
     <string name="channel_foreground">Aktive Dienste</string>
     <string name="channel_notify">Allgemeine Benachrichtigungen</string>
     <string name="channel_access">Zugriffsbenachrichtigungen</string>
@@ -93,13 +93,13 @@
     <string name="setting_hosts_download">Hosts-Datei herunterladen</string>
     <string name="setting_hosts_update">Hosts-Datei aktualisieren</string>
     <string name="summary_install">Statusleisten-Benachrichtigung für neu installierte Apps anzeigen</string>
-    <string name="summary_pause">Nach dem Deaktivieren über die Benachrichtigung TrackerControl nach einer festgelegten Anzahl von Minuten automatisch wieder aktivieren (Null eingeben zum Deaktivieren dieser Option).</string>
+    <string name="summary_pause">Nach dem Deaktivieren über die Benachrichtigung Salama Online nach einer festgelegten Anzahl von Minuten automatisch wieder aktivieren (Null eingeben zum Deaktivieren dieser Option).</string>
     <string name="summary_update">Zweimal täglich auf GitHub nach neuen Versionen suchen</string>
     <string name="summary_tethering">Abhängig von der Android-Version kann Tethering funktionieren. Dieser Verkehr kann nicht gefiltert werden.</string>
     <string name="summary_subnet">Subnet-Routing aktivieren; ermöglicht möglicherweise das Telefonieren über WLAN, kann aber auch Fehler in Android verursachen und lässt den Batterieverbrauch steigen</string>
     <string name="summary_lan">Apps den Zugriff auf lokale Netzwerkadressen wie 10.0.0.0/8, 172.16.0.0/12 und 192.168.0.0/16 erlauben</string>
-    <string name="summary_ip6">IP6-Datenverkehr an TrackerControl weiterleiten, so dass er selektiv erlaubt oder blockiert werden kann</string>
-    <string name="summary_call">TrackerControl bei eingehenden oder ausgehenden Anrufen deaktivieren. Dadurch können Probleme mit IP/WLAN-Telefonie gelöst werden.</string>
+    <string name="summary_ip6">IP6-Datenverkehr an Salama Online weiterleiten, so dass er selektiv erlaubt oder blockiert werden kann</string>
+    <string name="summary_call">Salama Online bei eingehenden oder ausgehenden Anrufen deaktivieren. Dadurch können Probleme mit IP/WLAN-Telefonie gelöst werden.</string>
     <string name="summary_system">Regeln für System-Apps festlegen (für Experten)</string>
     <string name="summary_log_app">Deaktivieren, um den Akkuverbrauch zu verringern. Neue Tracker werden weiterhin blockiert, aber nicht angezeigt.</string>
     <string name="summary_track_usage">Die Anzahl der gesendeten und empfangenen Bytes für jede App und Adresse verfolgen. Dies kann zu einem erhöhten Akkuverbrauch führen.</string>
@@ -107,26 +107,26 @@
     <string name="summary_rcode">Der Standardwert ist 3 (NXDOMAIN), was \'nicht existierende Domain\' bedeutet.</string>
     <string name="summary_validate">Domain-Name, der verwendet wird, um die Internetverbindung unter Port 443 (https) zu validieren.</string>
     <string name="summary_socks5_enabled">Nur TCP-Datenverkehr wird an den Proxyserver gesendet</string>
-    <string name="summary_watchdog">In regelmäßigen Abständen überprüfen, ob TrackerControl noch läuft (geben Sie Null ein, um diese Option zu deaktivieren). Kann zu erhöhtem Akkuverbrauch führen.</string>
+    <string name="summary_watchdog">In regelmäßigen Abständen überprüfen, ob Salama Online noch läuft (geben Sie Null ein, um diese Option zu deaktivieren). Kann zu erhöhtem Akkuverbrauch führen.</string>
     <string name="summary_log_logcat">Deaktiviert das blockieren. Kommunikation (und identifizierte Tracker) werden im Geräteprotokoll protokolliert. Abrufen mit adb logcat mit Tag \'TC-Log\".</string>
     <string name="msg_sure">Sind Sie sicher?</string>
     <string name="msg_started">Tracker werden überprüft</string>
     <string name="msg_waiting">Auf Ereignis warten</string>
-    <string name="msg_disabled">Verwenden Sie den obigen Schalter um TrackerControl zu aktivieren.</string>
-    <string name="msg_revoked">TrackerControl wurde deaktiviert, wahrscheinlich durch die Verwendung einer anderen VPN-Anwendung</string>
+    <string name="msg_disabled">Verwenden Sie den obigen Schalter um Salama Online zu aktivieren.</string>
+    <string name="msg_revoked">Salama Online wurde deaktiviert, wahrscheinlich durch die Verwendung einer anderen VPN-Anwendung</string>
     <string name="msg_installed">Probleme mit %1$s?</string>
     <string name="msg_installed_description">App erlauben, Unternehmen zu kontaktieren</string>
     <string name="msg_installed_tracker_libraries_found">Enthält %d Tracker-Bibliothek(en)</string>
     <string name="msg_installed_n">Wurde installiert</string>
     <string name="msg_completed">Aktion abgeschlossen</string>
-    <string name="msg_vpn">TrackerControl verwendet ein lokales VPN, um den Internetverkehr zu filtern. Gestatten Sie aus diesem Grund eine VPN-Verbindung im nächsten Dialogfenster. Ihr Internetverkehr wird nicht an einen VPN-Server gesendet.</string>
-    <string name="msg_autostart">TrackerControl konnte nicht automatisch gestartet werden. Ursache ist wahrscheinlich ein Fehler in Ihrer Android-Version.</string>
+    <string name="msg_vpn">Salama Online verwendet ein lokales VPN, um den Internetverkehr zu filtern. Gestatten Sie aus diesem Grund eine VPN-Verbindung im nächsten Dialogfenster. Ihr Internetverkehr wird nicht an einen VPN-Server gesendet.</string>
+    <string name="msg_autostart">Salama Online konnte nicht automatisch gestartet werden. Ursache ist wahrscheinlich ein Fehler in Ihrer Android-Version.</string>
     <string name="msg_error">Unerwarteter Fehler ist aufgetreten: \'%s\'</string>
     <string name="msg_start_failed">Android hat es momentan abgelehnt, den VPN-Dienst zu starten. Ursache ist wahrscheinlich ein Fehler in Ihrer Android-Version.</string>
-    <string name="msg_try">TrackerControl ausprobieren</string>
-    <string name="msg_doze">Für konsistente Ergebnisse sollte für TrackerControl die Android-Batterie-Optimierungen deaktiviert werden.\n\nIm nächsten Dialogfenster wählen Sie ganz oben \"Alle Apps\", tippen auf TrackerControl in der Liste und wählen und bestätigen \"Nicht optimieren\".</string>
-    <string name="msg_datasaving">Für konsistente Ergebnisse sollte die Android-Option \"Datensparen\" für TrackerControl deaktiviert werden\n\nIm nächsten Fenster aktivieren Sie die Optionen \"Hintergrunddaten\" und \"Uneingeschränkte Datennutzung\"</string>
-    <string name="msg_filter">Bei Verwendung von Filterung werden Daten- und Energiewerte erfasst und Android nimmt an, dass Daten und Energie von TrackerControl statt von der ursprünglichen Anwendungen verbraucht werden</string>
+    <string name="msg_try">Salama Online ausprobieren</string>
+    <string name="msg_doze">Für konsistente Ergebnisse sollte für Salama Online die Android-Batterie-Optimierungen deaktiviert werden.\n\nIm nächsten Dialogfenster wählen Sie ganz oben \"Alle Apps\", tippen auf Salama Online in der Liste und wählen und bestätigen \"Nicht optimieren\".</string>
+    <string name="msg_datasaving">Für konsistente Ergebnisse sollte die Android-Option \"Datensparen\" für Salama Online deaktiviert werden\n\nIm nächsten Fenster aktivieren Sie die Optionen \"Hintergrunddaten\" und \"Uneingeschränkte Datennutzung\"</string>
+    <string name="msg_filter">Bei Verwendung von Filterung werden Daten- und Energiewerte erfasst und Android nimmt an, dass Daten und Energie von Salama Online statt von der ursprünglichen Anwendungen verbraucht werden</string>
     <string name="msg_filter4">Android 4 erfordert die Aktivierung der Filterung</string>
     <string name="msg_log_disabled">Datenverkehrprotokollierung ist deaktiviert. Zum Aktivieren den Schalter oben verwenden. Die Protokollierung kann zu erhöhtem Batterieverbrauch führen.</string>
     <string name="msg_clear_rules">Dadurch werden die Regeln und Bedingungen auf ihre Standardwerte zurückgesetzt</string>
@@ -139,7 +139,7 @@
     <string name="msg_update_last">Letzte Aktualisierung: %s</string>
     <string name="msg_metered">Volumenbeschränktes Netzwerk</string>
     <string name="msg_inactive">Keine aktive Internetverbindung</string>
-    <string name="msg_queue">TrackerControl ist beschäftigt</string>
+    <string name="msg_queue">Salama Online ist beschäftigt</string>
     <string name="msg_update">Neue Version verfügbar, tippen zum Herunterladen</string>
     <string name="msg_usage">Sie können den Wi-Fi oder mobilen Internet-Zugang zulassen (grünlich) oder verweigern (rötlich), indem Sie auf die Symbole neben einer Anwendung tippen</string>
     <string name="msg_whitelist">Internet-Zugang ist standardmäßig erlaubt (Blacklist-Modus). Das kann in den Einstellungen geändert werden.</string>
@@ -149,8 +149,8 @@
     <string name="msg_vpn_cancelled">VPN-Verbindung abgebrochen\nHaben Sie ein anderes VPN als \'immer eingeschaltet\' konfiguriert?</string>
     <string name="msg_unavailable">Diese Funktion ist in dieser Android-Version nicht verfügbar</string>
     <string name="msg_always_on">Ein anderes VPN ist als \'immer eingeschaltet\' konfiguriert</string>
-    <string name="msg_always_on_lockdown">Um TrackerControl im Filtermodus benutzen zu können, müssen Sie in den Android-VPN-Einstellungen \"Verbindungen ohne VPN blockieren\" deaktivieren</string>
-    <string name="msg_private_dns">\"Privates DNS\" in Android Netzwerkeinstellungen deaktivieren um TrackerControl im Filtermodus zu verwenden</string>
+    <string name="msg_always_on_lockdown">Um Salama Online im Filtermodus benutzen zu können, müssen Sie in den Android-VPN-Einstellungen \"Verbindungen ohne VPN blockieren\" deaktivieren</string>
+    <string name="msg_private_dns">\"Privates DNS\" in Android Netzwerkeinstellungen deaktivieren um Salama Online im Filtermodus zu verwenden</string>
     <string name="msg_start_forward">Weiterleitung von %1$s Port %2$d nach %3$s:%4$d von \'%5$s\' starten?</string>
     <string name="msg_stop_forward">Weiterleitung von %1$s Port %2$d stoppen?</string>
     <string name="msg_log_logcat">Warnung: Blockierung wegen ADB-Protokollierung deaktiviert.</string>
@@ -248,7 +248,7 @@
     <string name="app_info">App verwalten</string>
     <!-- Actions -->
     <string name="block_tracking">Tracker blockieren</string>
-    <string name="block_tracking_description">Viele Apps senden Daten an Dritte, sogenannte Tracker. TrackerControl erlaubt es, diese Netzwerkaktivitäten selektiv zu blockieren. Aber nutzen Sie dies mit Bedacht, da viele App-Entwickler von diesen Diensten, vor allem von Werbung, abhängig sind.</string>
+    <string name="block_tracking_description">Viele Apps senden Daten an Dritte, sogenannte Tracker. Salama Online erlaubt es, diese Netzwerkaktivitäten selektiv zu blockieren. Aber nutzen Sie dies mit Bedacht, da viele App-Entwickler von diesen Diensten, vor allem von Werbung, abhängig sind.</string>
     <string name="personalised_ads">Personalisierung beschränken</string>
     <string name="personalised_ads_description">Android bietet an, den Zugriff von Apps auf die Google-Werbe-ID Ihres Geräts einzuschränken. Apps können diese Einstellung jedoch möglicherweise ignorieren und weiterhin diese ID verwenden. Sie können diese ID gemäß den Richtlinien von Google auch weiterhin zu Analysezwecken erfassen. Sie benötigen Vertrauen in Google und das datenerhebende Unternehmen.</string>
     <string name="data_managment">Daten verwalten</string>
@@ -301,12 +301,12 @@ The reason for my removal request is that I withdraw or have withdrawn my consen
 Please provide your response through secure means by email. I look forward to receiving a response within one month of the receipt of my request.\n
 \n
 Sincerely,\n\n]]></string>
-    <string name="crash_dialog_text">Entschuldigung. TrackerControl ist abgestürzt ... Wir wären sehr dankbar dafür, wenn Sie uns eine E-Mail mit Details schicken.</string>
+    <string name="crash_dialog_text">Entschuldigung. Salama Online ist abgestürzt ... Wir wären sehr dankbar dafür, wenn Sie uns eine E-Mail mit Details schicken.</string>
     <string name="crash_dialog_comment">Bemerkungen?</string>
     <string name="instructions_monitoring_private_dns">Betätigen Sie den Schalter und nutzen Sie einige Apps. Private DNS muss deaktiviert werden.</string>
     <string name="instructions_monitoring">Betätigen Sie den Schalter und nutzen Sie einige Apps.</string>
     <string name="device_not_supported_title">Gerät wird nicht unterstützt</string>
-    <string name="device_not_supported_msg">Das Betriebssystem Ihres Geräts erlaubt keine Überwachung und Filterung der Netzwerkkommunikation. Dies wird für TrackerControl benötigt.</string>
+    <string name="device_not_supported_msg">Das Betriebssystem Ihres Geräts erlaubt keine Überwachung und Filterung der Netzwerkkommunikation. Dies wird für Salama Online benötigt.</string>
     <string name="launch_app">Starten &amp; Tracker finden</string>
     <string name="countries">Zielländer</string>
     <string name="countries_explanation">Herausfinden, wohin Ihr Telefon Tracking-Daten sendet.\n\nInformationen basieren auf DNS-Abfragen und IP-Informationen und können ungenau sein.</string>
@@ -330,7 +330,7 @@ Sincerely,\n\n]]></string>
     <string name="no_trackers_found_action">Starten</string>
     <string name="no_internet_message">"Diese App hat keinen Internetzugang. Sie kann Sie trotzdem verfolgen, indem sie Daten mit anderen Anwendungen austauscht."</string>
     <string name="no_internet">Kein Internetzugang</string>
-    <string name="bypass_vpn_error">"Internet kann nicht blockiert werden. App ist von TrackerControl ausgeschlossen."</string>
+    <string name="bypass_vpn_error">"Internet kann nicht blockiert werden. App ist von Salama Online ausgeschlossen."</string>
     <string name="back">Zurück</string>
     <string name="forever_free">Für immer kostenlos</string>
     <string name="your_privacy">Deine Privatsphäre</string>
@@ -349,8 +349,8 @@ Sincerely,\n\n]]></string>
     <string name="detected_trackers">Erkannte Tracker-Bibliotheken: %s</string>
     <string name="none">Keine</string>
     <string name="trackers_static">Tracker-Bibliotheken</string>
-    <string name="trackers_static_explanation">TrackerControl erkennt Tracking im Code (\'Bibliotheken\') und im Netzwerkverkehr von Apps.\n\nTracking, das im Netzwerkverkehr erkannt wird, kann mit TrackerControl blockiert werden.</string>
-    <string name="trackers_static_explanation_playstore">TrackerControl erkennt Tracking im Code (\'Bibliotheken\') und im Netzwerkverkehr von Apps.</string>
+    <string name="trackers_static_explanation">Salama Online erkennt Tracking im Code (\'Bibliotheken\') und im Netzwerkverkehr von Apps.\n\nTracking, das im Netzwerkverkehr erkannt wird, kann mit Salama Online blockiert werden.</string>
+    <string name="trackers_static_explanation_playstore">Salama Online erkennt Tracking im Code (\'Bibliotheken\') und im Netzwerkverkehr von Apps.</string>
     <string name="blocked">BLOCKIERT</string>
     <string name="allowed">ERLAUBT</string>
     <string name="setting_domain_based_blocked">Domänenbasierte Blockierung</string>
@@ -358,7 +358,7 @@ Sincerely,\n\n]]></string>
     <string name="untap_unblock">Tipp: Sie können einzelne Einträge durch Tippen aufheben.</string>
     <string name="uncertain_entry">Mit einem \'*\' markierte Einträge könnten aufgrund von Android-Einschränkungen ungenau sein. Dies bedeutet in der Regel, dass ein Unternehmen dieselbe IP-Adresse unter verschiedenen Domains verwendet, aber kann auch bedeuten, dass verschiedene Unternehmen die gleiche IP-Adresse verwenden (z. B. wenn sie ein Content Delivery Network verwenden).</string>
     <string name="browsers_not_supported">Browser werden nicht unterstützt: ⚠️</string>
-    <string name="browsers_not_supported_explanation">Dies scheint eine Browser-App zu sein.\n\nDas Blockieren von Trackern in Browsern wird von TrackerControl nicht unterstützt. Verwenden Sie stattdessen einen Browser mit integrierter Anti-Tracking-Funktion.\n\nZum Beispiel: Mozilla Fennec, Bromite, Vivaldi</string>
+    <string name="browsers_not_supported_explanation">Dies scheint eine Browser-App zu sein.\n\nDas Blockieren von Trackern in Browsern wird von Salama Online nicht unterstützt. Verwenden Sie stattdessen einen Browser mit integrierter Anti-Tracking-Funktion.\n\nZum Beispiel: Mozilla Fennec, Bromite, Vivaldi</string>
     <string name="static_analysis">Tracker im App-Code erkennen</string>
-    <string name="failed_loading_cached_analysis">Laden der zwischengespeicherten Tracker-Ergebnisse fehlgeschlagen. Bitte melden Sie dies dem Entwickler unter hello@trackercontrol.org</string>
+    <string name="failed_loading_cached_analysis">Laden der zwischengespeicherten Tracker-Ergebnisse fehlgeschlagen. Bitte melden Sie dies dem Entwickler unter hello@Salama Online.org</string>
 </resources>

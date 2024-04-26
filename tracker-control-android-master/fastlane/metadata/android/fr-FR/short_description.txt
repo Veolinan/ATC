@@ -1,1 +1,1 @@
-TrackerControl permet de contrôler la collecte cachée des données personnelles.
+Salama Online permet de contrôler la collecte cachée des données personnelles.

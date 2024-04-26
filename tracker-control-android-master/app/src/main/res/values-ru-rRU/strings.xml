@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_description">TrackerControl позволяет пользователям отслеживать и контролировать повсеместный, постоянный, скрытый сбор данных в мобильных приложениях о поведении пользователей («трекинг»).</string>
-    <string name="app_android">Для работы TrackerControl требуется Android 5.1 или более поздняя версия</string>
-    <string name="app_xposed">Xposed вызывает слишком много сбоев, что может привести к удалению TrackerControl из магазина Google Play, поэтому TrackerControl не поддерживается, пока установлен Xposed</string>
+    <string name="app_description">Salama Online позволяет пользователям отслеживать и контролировать повсеместный, постоянный, скрытый сбор данных в мобильных приложениях о поведении пользователей («трекинг»).</string>
+    <string name="app_android">Для работы Salama Online требуется Android 5.1 или более поздняя версия</string>
+    <string name="app_xposed">Xposed вызывает слишком много сбоев, что может привести к удалению Salama Online из магазина Google Play, поэтому Salama Online не поддерживается, пока установлен Xposed</string>
     <string name="app_eula">Вы используете это приложение на свой собственный риск. Никакое приложение не может обеспечить 100%-ную защиту от отслеживания.</string>
     <string name="channel_foreground">Запущенные службы</string>
     <string name="channel_notify">Общие уведомления</string>
@@ -93,13 +93,13 @@
     <string name="setting_hosts_download">Скачать hosts-файл</string>
     <string name="setting_hosts_update">Обновить hosts-файл</string>
     <string name="summary_install">Показывать уведомление для новых приложений</string>
-    <string name="summary_pause">После отключения через уведомление, автоматически включить TrackerControl снова после указанного количества минут (введите ноль, чтобы отключить эту опцию).</string>
+    <string name="summary_pause">После отключения через уведомление, автоматически включить Salama Online снова после указанного количества минут (введите ноль, чтобы отключить эту опцию).</string>
     <string name="summary_update">Проверять наличие новых версий на GitHub два раза в день</string>
     <string name="summary_tethering">В зависимости от версии Android, режим модема может либо работать, либо не работать. Tethering-трафик не может быть отфильтрован.</string>
     <string name="summary_subnet">Включение маршрутизации подсети; может дать возможность использования Wi-Fi звонков, но также может вызвать ошибки в Android и увеличить расход батареи</string>
     <string name="summary_lan">Разрешить приложениям подключаться к локальным сетевым адресам таким, как 10.0.0.0/8, 172.16.0.0/12 и 192.168.0.0/16</string>
-    <string name="summary_ip6">Направлять IPv6 трафик в TrackerControl, чтобы его можно было выборочно разрешать или блокировать</string>
-    <string name="summary_call">Отключить TrackerControl при входящем или исходящем телефонном звонке. Эту опцию можно использовать для решения проблем с IP/Wi-Fi звонками.</string>
+    <string name="summary_ip6">Направлять IPv6 трафик в Salama Online, чтобы его можно было выборочно разрешать или блокировать</string>
+    <string name="summary_call">Отключить Salama Online при входящем или исходящем телефонном звонке. Эту опцию можно использовать для решения проблем с IP/Wi-Fi звонками.</string>
     <string name="summary_system">Определить правила для системных приложений (для экспертов)</string>
     <string name="summary_log_app">Отключите, чтобы уменьшить расход батареи. Новые трекеры по-прежнему будут блокироваться, но не отображаться.</string>
     <string name="summary_track_usage">Отслеживать количество отправленных и полученных байт для каждого приложения и адресов. Это может привести к большему расходу батареи.</string>
@@ -107,27 +107,27 @@
     <string name="summary_rcode">Значение по умолчанию — 3 (NXDOMAIN); это означает «несуществующий домен».</string>
     <string name="summary_validate">Доменное имя, используемое для проверки интернет-соединения через порт 443 (https).</string>
     <string name="summary_socks5_enabled">На прокси-сервер будет направляться только TCP трафик</string>
-    <string name="summary_watchdog">Периодически проверять, запущен ли TrackerControl (введите ноль, чтобы отключить эту опцию). Это может привести к большему расходу батареи.</string>
+    <string name="summary_watchdog">Периодически проверять, запущен ли Salama Online (введите ноль, чтобы отключить эту опцию). Это может привести к большему расходу батареи.</string>
     <string name="summary_log_logcat">Отключает блокировку. Соединения (и идентифицированные трекеры) записываются в журнал устройства. Извлечение через adb logcat с тегом \'TC-Log\'.</string>
     <string name="msg_sure">Вы уверены?</string>
     <string name="msg_started">Проверка трекеров</string>
     <string name="msg_waiting">Ожидание события</string>
-    <string name="msg_disabled">Для включения TrackerControl используйте переключатель выше.</string>
-    <string name="msg_revoked">TrackerControl был отключен, скорее всего, из-за применения другого VPN-подключения</string>
+    <string name="msg_disabled">Для включения Salama Online используйте переключатель выше.</string>
+    <string name="msg_revoked">Salama Online был отключен, скорее всего, из-за применения другого VPN-подключения</string>
     <string name="msg_installed">Проблемы с %1$s?</string>
     <string name="msg_installed_description">Разрешить приложению связываться с компаниями</string>
     <string name="msg_installed_n">Было установлено</string>
     <string name="msg_completed">Действие завершено</string>
-    <string name="msg_vpn">TrackerControl использует локальный VPN для фильтрации интернет-трафика.
+    <string name="msg_vpn">Salama Online использует локальный VPN для фильтрации интернет-трафика.
 По этой причине, пожалуйста, разрешите VPN-подключение в следующем диалоговом окне. Удаленному VPN-серверу ваш интернет-трафик не отправляется.</string>
-    <string name="msg_autostart">TrackerControl не удалось запустить автоматически. Вероятно, это произошло из-за ошибки в вашей версии Android.</string>
+    <string name="msg_autostart">Salama Online не удалось запустить автоматически. Вероятно, это произошло из-за ошибки в вашей версии Android.</string>
     <string name="msg_error">Произошла непредвиденная ошибка: \'%s\'</string>
     <string name="msg_start_failed">В данный момент Android отказался запустить VPN-сервис. Скорее всего, это произошло из-за ошибки в вашей версии Android.</string>
-    <string name="msg_try">Попробуйте TrackerControl</string>
-    <string name="msg_doze">Для стабильной работы оптимизация батареи для TrackerControl должна быть отключена.\n\nВ следующем диалоговом окне выберите вверху «Все приложения», нажмите TrackerControl в списке, выберите и подтвердите «Не оптимизировать».</string>
-    <string name="msg_datasaving">Для стабильной работы экономия трафика Android должна быть отключена для TrackerControl.
+    <string name="msg_try">Попробуйте Salama Online</string>
+    <string name="msg_doze">Для стабильной работы оптимизация батареи для Salama Online должна быть отключена.\n\nВ следующем диалоговом окне выберите вверху «Все приложения», нажмите Salama Online в списке, выберите и подтвердите «Не оптимизировать».</string>
+    <string name="msg_datasaving">Для стабильной работы экономия трафика Android должна быть отключена для Salama Online.
 \n\nВ следующем диалоговом окне включите опции \"Фоновый режим\" и \"Неограниченная передача данных\"</string>
-    <string name="msg_filter">С включённой фильтрацией Android будет приписывать TrackerControl расход батареи и трафика проходящих через него приложений. В реальности общее энергопотребление и объём данных останутся прежними</string>
+    <string name="msg_filter">С включённой фильтрацией Android будет приписывать Salama Online расход батареи и трафика проходящих через него приложений. В реальности общее энергопотребление и объём данных останутся прежними</string>
     <string name="msg_filter4">На Android 4 фильтрация должна быть включена</string>
     <string name="msg_log_disabled">Логирование трафика отключено, для включения используйте переключатель выше. Это может привести к дополнительному расходу батареи.</string>
     <string name="msg_clear_rules">Это сбросит правила и условия на значения по умолчанию</string>
@@ -140,7 +140,7 @@
     <string name="msg_update_last">Последнее обновление: %s</string>
     <string name="msg_metered">Сеть с лимитированным подключением</string>
     <string name="msg_inactive">Нет активного интернет-соединения</string>
-    <string name="msg_queue">TrackerControl занят</string>
+    <string name="msg_queue">Salama Online занят</string>
     <string name="msg_update">Доступно обновление, нажмите для скачивания</string>
     <string name="msg_usage">Вы можете разрешить (зеленый) или запретить (красный) доступ по Wi-Fi или мобильному интернету, нажав на значок рядом с приложением</string>
     <string name="msg_whitelist">Доступ в интернет разрешен по умолчанию (режим чёрного списка), это может быть изменено в настройках</string>
@@ -150,8 +150,8 @@
     <string name="msg_vpn_cancelled">VPN соединение отменено\nВы настроили другой VPN в режиме «Постоянная VPN»?</string>
     <string name="msg_unavailable">Эта функция недоступна в этой версии Android</string>
     <string name="msg_always_on">Другой VPN установлен в режиме «Постоянная VPN»</string>
-    <string name="msg_always_on_lockdown">Отключите «Блокировать подключения без VPN» в настройках Android VPN, чтобы использовать TrackerControl в режиме фильтрации</string>
-    <string name="msg_private_dns">Отключите «Частный DNS» в настройках сети Android, чтобы использовать TrackerControl в режиме фильтрации</string>
+    <string name="msg_always_on_lockdown">Отключите «Блокировать подключения без VPN» в настройках Android VPN, чтобы использовать Salama Online в режиме фильтрации</string>
+    <string name="msg_private_dns">Отключите «Частный DNS» в настройках сети Android, чтобы использовать Salama Online в режиме фильтрации</string>
     <string name="msg_start_forward">Начать перенаправление с %1$s порта %2$d до %3$s:%4$d из \'%5$s\'?</string>
     <string name="msg_stop_forward">Остановить перенаправление из %1$s порта %2$d?</string>
     <string name="msg_log_logcat">Внимание: Блокировка отключена из-за логирования в ADB.</string>
@@ -253,7 +253,7 @@
     <string name="app_info">Управление приложением</string>
     <!-- Actions -->
     <string name="block_tracking">Блокировать трекеры</string>
-    <string name="block_tracking_description">Многие приложения отправляют данные сторонним организациям, так называемым трекерам. TrackerControl позволяет выборочно блокировать соединения с ними. Однако пользуйтесь этим с умом, поскольку разработчики приложений полагаются на эти сервисы, особенно рекламные.</string>
+    <string name="block_tracking_description">Многие приложения отправляют данные сторонним организациям, так называемым трекерам. Salama Online позволяет выборочно блокировать соединения с ними. Однако пользуйтесь этим с умом, поскольку разработчики приложений полагаются на эти сервисы, особенно рекламные.</string>
     <string name="personalised_ads">Ограничить персонализацию</string>
     <string name="personalised_ads_description">Android предлагает ограничить доступ приложений к рекламному идентификатору Google вашего устройства. Однако приложения могут игнорировать этот параметр и по-прежнему использовать этот идентификатор. Они также могут продолжать собирать этот идентификатор в аналитических целях в соответствии с политикой Google. Вам нужно доверять Google и компании, занимающейся сбором данных.</string>
     <string name="data_managment">Управление данными</string>
@@ -305,12 +305,12 @@ The reason for my removal request is that I withdraw or have withdrawn my consen
 Please provide your response through secure means by email. I look forward to receiving a response within one month of the receipt of my request.\n
 \n
 Sincerely,\n\n]]></string>
-    <string name="crash_dialog_text">Извините. Произошел сбой TrackerControl. Не могли бы вы отправить нам электронное письмо с подробностями?</string>
+    <string name="crash_dialog_text">Извините. Произошел сбой Salama Online. Не могли бы вы отправить нам электронное письмо с подробностями?</string>
     <string name="crash_dialog_comment">Есть комментарии?</string>
     <string name="instructions_monitoring_private_dns">Включите переключатель и поработайте в нескольких приложениях. Частный DNS должен быть отключен.</string>
     <string name="instructions_monitoring">Включите переключатель и поработайте в нескольких приложениях.</string>
     <string name="device_not_supported_title">Устройство не поддерживается</string>
-    <string name="device_not_supported_msg">Операционная система вашего устройства не позволяет вести мониторинг и фильтрацию сетевых коммуникаций, что необходимо для работы TrackerControl.</string>
+    <string name="device_not_supported_msg">Операционная система вашего устройства не позволяет вести мониторинг и фильтрацию сетевых коммуникаций, что необходимо для работы Salama Online.</string>
     <string name="launch_app">Запустить и найти трекеры</string>
     <string name="countries">Страны назначения</string>
     <string name="countries_explanation">Узнайте, куда ваш телефон отправляет данные отслеживания.\n\nИнформация основана на поиске в DNS и информации об IP-адресах и может быть неточной.</string>
@@ -333,7 +333,7 @@ Sincerely,\n\n]]></string>
     <string name="no_trackers_found_action">Запустить</string>
     <string name="no_internet_message">"У этого приложения нет разрешения на доступ в интернет. Оно всё ещё может отслеживать вас, обмениваясь данными с другими приложениями."</string>
     <string name="no_internet">Не имеет разрешения на доступ в интернет</string>
-    <string name="bypass_vpn_error">"Невозможно заблокировать интернет. Приложение исключено из TrackerControl."</string>
+    <string name="bypass_vpn_error">"Невозможно заблокировать интернет. Приложение исключено из Salama Online."</string>
     <string name="back">Назад</string>
     <string name="forever_free">Всегда бесплатно</string>
     <string name="your_privacy">Ваша приватность</string>
@@ -352,14 +352,14 @@ Sincerely,\n\n]]></string>
     <string name="detected_trackers">Обнаружено библиотек трекинга: %s</string>
     <string name="none">Нет</string>
     <string name="trackers_static">Библиотеки трекинга</string>
-    <string name="trackers_static_explanation">TrackerControl обнаруживает трекинг в коде приложения («библиотеки») и в сетевом трафике.\n\nТрекинг, обнаруженный в трафике, можно заблокировать с помощью TrackerControl.</string>
-    <string name="trackers_static_explanation_playstore">TrackerControl обнаруживает трекинг в коде приложения («библиотеки») и в сетевом трафике.</string>
+    <string name="trackers_static_explanation">Salama Online обнаруживает трекинг в коде приложения («библиотеки») и в сетевом трафике.\n\nТрекинг, обнаруженный в трафике, можно заблокировать с помощью Salama Online.</string>
+    <string name="trackers_static_explanation_playstore">Salama Online обнаруживает трекинг в коде приложения («библиотеки») и в сетевом трафике.</string>
     <string name="blocked">ЗАБЛОКИРОВАНО</string>
     <string name="allowed">РАЗРЕШЕНО</string>
     <string name="summary_domain_based_blocking">Позволяет более точную блокировку. Пока в разработке.</string>
     <string name="untap_unblock">Подсказка: Вы можете разблокировать отдельные записи, нажав на них.</string>
     <string name="uncertain_entry">Записи отмеченные знаком \'*\' могут быть неточными из-за ограничений Android. Это обычно означает, что одна и та же компания использует один и тот же IP адрес в разных доменах, но может также означать, что различные компании находятся за одним IP адресом (например, если они используют сети доставки контента).</string>
     <string name="browsers_not_supported">Браузеры не поддерживаются ⚠️</string>
-    <string name="browsers_not_supported_explanation">Похоже, это приложение для браузера.\n\nБлокировка трекеров в браузерах не поддерживается TrackerControl. Вместо этого используйте браузер с встроенной функцией защиты от отслеживания, чтобы лучше блокировать отслеживание.\n\nНапример: Mozilla Fennec, Bromite</string>
+    <string name="browsers_not_supported_explanation">Похоже, это приложение для браузера.\n\nБлокировка трекеров в браузерах не поддерживается Salama Online. Вместо этого используйте браузер с встроенной функцией защиты от отслеживания, чтобы лучше блокировать отслеживание.\n\nНапример: Mozilla Fennec, Bromite</string>
     <string name="static_analysis">Обнаружить трекеры в коде приложения</string>
 </resources>
